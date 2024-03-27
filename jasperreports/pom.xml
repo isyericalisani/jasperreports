@@ -7,7 +7,7 @@
 		<version>${revision}</version>
 		<relativePath>./pom-common.xml</relativePath>
 	</parent>
-	<groupId>net.sf.jasperreports</groupId>
+	<groupId>net.sf.jasperreports6</groupId>
 	<artifactId>jasperreports</artifactId>
 	<packaging>jar</packaging>
 	<name>JasperReports Library</name>
