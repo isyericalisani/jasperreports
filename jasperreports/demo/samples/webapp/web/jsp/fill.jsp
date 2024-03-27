@@ -26,10 +26,10 @@
 
 <%@ page errorPage="error.jsp" %>
 <%@ page import="datasource.*" %>
-<%@ page import="net.sf.jasperreports.engine.*" %>
-<%@ page import="net.sf.jasperreports.engine.util.*" %>
-<%@ page import="net.sf.jasperreports.engine.export.*" %>
-<%@ page import="net.sf.jasperreports.j2ee.servlets.*" %>
+<%@ page import="net.sf.jasperreports6.engine.*" %>
+<%@ page import="net.sf.jasperreports6.engine.util.*" %>
+<%@ page import="net.sf.jasperreports6.engine.export.*" %>
+<%@ page import="net.sf.jasperreports6.j2ee.servlets.*" %>
 <%@ page import="java.util.*" %>
 <%@ page import="java.io.*" %>
 

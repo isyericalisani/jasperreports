@@ -27,14 +27,14 @@ import java.util.UUID;
 
 import org.testng.annotations.Test;
 
-import net.sf.jasperreports.engine.fill.DefaultPrintElementOriginator;
-import net.sf.jasperreports.engine.fill.JRTemplateEllipse;
-import net.sf.jasperreports.engine.fill.JRTemplateLine;
-import net.sf.jasperreports.engine.fill.JRTemplatePrintEllipse;
-import net.sf.jasperreports.engine.fill.JRTemplatePrintGraphicElement;
-import net.sf.jasperreports.engine.fill.JRTemplatePrintLine;
-import net.sf.jasperreports.engine.fill.JRTemplatePrintRectangle;
-import net.sf.jasperreports.engine.fill.JRTemplateRectangle;
+import net.sf.jasperreports6.engine.fill.DefaultPrintElementOriginator;
+import net.sf.jasperreports6.engine.fill.JRTemplateEllipse;
+import net.sf.jasperreports6.engine.fill.JRTemplateLine;
+import net.sf.jasperreports6.engine.fill.JRTemplatePrintEllipse;
+import net.sf.jasperreports6.engine.fill.JRTemplatePrintGraphicElement;
+import net.sf.jasperreports6.engine.fill.JRTemplatePrintLine;
+import net.sf.jasperreports6.engine.fill.JRTemplatePrintRectangle;
+import net.sf.jasperreports6.engine.fill.JRTemplateRectangle;
 
 /**
  * @author Lucian Chirita (lucianc@users.sourceforge.net)

@@ -42,21 +42,21 @@ import java.util.function.BiConsumer;
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
 
-import net.sf.jasperreports.engine.JRException;
-import net.sf.jasperreports.engine.JRParameter;
-import net.sf.jasperreports.engine.JRVirtualizer;
-import net.sf.jasperreports.engine.JasperCompileManager;
-import net.sf.jasperreports.engine.JasperFillManager;
-import net.sf.jasperreports.engine.JasperPrint;
-import net.sf.jasperreports.engine.JasperReport;
-import net.sf.jasperreports.engine.SimpleJasperReportsContext;
-import net.sf.jasperreports.engine.design.JasperDesign;
-import net.sf.jasperreports.engine.export.JRXmlExporter;
-import net.sf.jasperreports.engine.fill.JRAbstractLRUVirtualizer;
-import net.sf.jasperreports.engine.util.JRLoader;
-import net.sf.jasperreports.engine.xml.JRXmlLoader;
-import net.sf.jasperreports.export.SimpleExporterInput;
-import net.sf.jasperreports.export.SimpleXmlExporterOutput;
+import net.sf.jasperreports6.engine.JRException;
+import net.sf.jasperreports6.engine.JRParameter;
+import net.sf.jasperreports6.engine.JRVirtualizer;
+import net.sf.jasperreports6.engine.JasperCompileManager;
+import net.sf.jasperreports6.engine.JasperFillManager;
+import net.sf.jasperreports6.engine.JasperPrint;
+import net.sf.jasperreports6.engine.JasperReport;
+import net.sf.jasperreports6.engine.SimpleJasperReportsContext;
+import net.sf.jasperreports6.engine.design.JasperDesign;
+import net.sf.jasperreports6.engine.export.JRXmlExporter;
+import net.sf.jasperreports6.engine.fill.JRAbstractLRUVirtualizer;
+import net.sf.jasperreports6.engine.util.JRLoader;
+import net.sf.jasperreports6.engine.xml.JRXmlLoader;
+import net.sf.jasperreports6.export.SimpleExporterInput;
+import net.sf.jasperreports6.export.SimpleXmlExporterOutput;
 
 /**
  * @author Lucian Chirita (lucianc@users.sourceforge.net)

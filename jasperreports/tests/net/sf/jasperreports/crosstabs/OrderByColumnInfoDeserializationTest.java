@@ -27,11 +27,11 @@ import org.testng.annotations.BeforeTest;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
-import net.sf.jasperreports.crosstabs.fill.calculation.OrderByColumnInfo;
-import net.sf.jasperreports.engine.DefaultJasperReportsContext;
-import net.sf.jasperreports.engine.JRRuntimeException;
-import net.sf.jasperreports.engine.type.SortOrderEnum;
-import net.sf.jasperreports.util.JacksonUtil;
+import net.sf.jasperreports6.crosstabs.fill.calculation.OrderByColumnInfo;
+import net.sf.jasperreports6.engine.DefaultJasperReportsContext;
+import net.sf.jasperreports6.engine.JRRuntimeException;
+import net.sf.jasperreports6.engine.type.SortOrderEnum;
+import net.sf.jasperreports6.util.JacksonUtil;
 
 /**
  * 

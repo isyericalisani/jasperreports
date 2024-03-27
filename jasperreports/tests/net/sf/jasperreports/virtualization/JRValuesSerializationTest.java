@@ -28,11 +28,11 @@ import java.util.HashSet;
 import java.util.Map;
 import java.util.Set;
 
-import net.sf.jasperreports.engine.fill.JREvaluationTime;
-import net.sf.jasperreports.engine.fill.JRRecordedValues;
-
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
+
+import net.sf.jasperreports6.engine.fill.JREvaluationTime;
+import net.sf.jasperreports6.engine.fill.JRRecordedValues;
 
 /**
  * @author Lucian Chirita (lucianc@users.sourceforge.net)

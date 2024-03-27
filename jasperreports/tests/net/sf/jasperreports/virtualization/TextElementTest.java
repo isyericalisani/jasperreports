@@ -30,18 +30,18 @@ import java.util.UUID;
 
 import org.testng.annotations.Test;
 
-import net.sf.jasperreports.engine.JRPrintHyperlinkParameter;
-import net.sf.jasperreports.engine.JRPrintHyperlinkParameters;
-import net.sf.jasperreports.engine.JRPrintText;
-import net.sf.jasperreports.engine.JRPropertiesMap;
-import net.sf.jasperreports.engine.base.JRBasePrintText;
-import net.sf.jasperreports.engine.fill.DefaultPrintElementOriginator;
-import net.sf.jasperreports.engine.fill.JREvaluationTime;
-import net.sf.jasperreports.engine.fill.JRRecordedValues;
-import net.sf.jasperreports.engine.fill.JRRecordedValuesPrintText;
-import net.sf.jasperreports.engine.fill.JRTemplatePrintElement;
-import net.sf.jasperreports.engine.fill.JRTemplatePrintText;
-import net.sf.jasperreports.engine.fill.JRTemplateText;
+import net.sf.jasperreports6.engine.JRPrintHyperlinkParameter;
+import net.sf.jasperreports6.engine.JRPrintHyperlinkParameters;
+import net.sf.jasperreports6.engine.JRPrintText;
+import net.sf.jasperreports6.engine.JRPropertiesMap;
+import net.sf.jasperreports6.engine.base.JRBasePrintText;
+import net.sf.jasperreports6.engine.fill.DefaultPrintElementOriginator;
+import net.sf.jasperreports6.engine.fill.JREvaluationTime;
+import net.sf.jasperreports6.engine.fill.JRRecordedValues;
+import net.sf.jasperreports6.engine.fill.JRRecordedValuesPrintText;
+import net.sf.jasperreports6.engine.fill.JRTemplatePrintElement;
+import net.sf.jasperreports6.engine.fill.JRTemplatePrintText;
+import net.sf.jasperreports6.engine.fill.JRTemplateText;
 
 /**
  * @author Lucian Chirita (lucianc@users.sourceforge.net)

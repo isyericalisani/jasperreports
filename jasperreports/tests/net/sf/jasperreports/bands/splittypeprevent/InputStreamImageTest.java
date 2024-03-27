@@ -32,8 +32,8 @@ import java.util.Map;
 import org.testng.annotations.Test;
 
 import net.sf.jasperreports.Report;
-import net.sf.jasperreports.engine.JRParameter;
-import net.sf.jasperreports.engine.data.JRMapCollectionDataSource;
+import net.sf.jasperreports6.engine.JRParameter;
+import net.sf.jasperreports6.engine.data.JRMapCollectionDataSource;
 
 /**
  * @author Lucian Chirita (lucianc@users.sourceforge.net)

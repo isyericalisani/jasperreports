@@ -32,12 +32,12 @@ import org.testng.annotations.Test;
 import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.node.ArrayNode;
 
-import net.sf.jasperreports.engine.DefaultJasperReportsContext;
-import net.sf.jasperreports.engine.JRException;
-import net.sf.jasperreports.engine.json.JRJsonNode;
-import net.sf.jasperreports.engine.json.JsonNodeContainer;
-import net.sf.jasperreports.engine.util.JsonUtil;
-import net.sf.jasperreports.engine.util.json.DefaultJsonQLExecuter;
+import net.sf.jasperreports6.engine.DefaultJasperReportsContext;
+import net.sf.jasperreports6.engine.JRException;
+import net.sf.jasperreports6.engine.json.JRJsonNode;
+import net.sf.jasperreports6.engine.json.JsonNodeContainer;
+import net.sf.jasperreports6.engine.util.JsonUtil;
+import net.sf.jasperreports6.engine.util.json.DefaultJsonQLExecuter;
 
 /**
  * @author Narcis Marcu (narcism@users.sourceforge.net)

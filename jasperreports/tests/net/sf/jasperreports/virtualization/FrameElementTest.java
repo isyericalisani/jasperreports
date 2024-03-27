@@ -28,12 +28,12 @@ import java.util.UUID;
 
 import org.testng.annotations.Test;
 
-import net.sf.jasperreports.engine.JRPrintElement;
-import net.sf.jasperreports.engine.fill.DefaultPrintElementOriginator;
-import net.sf.jasperreports.engine.fill.JRTemplateFrame;
-import net.sf.jasperreports.engine.fill.JRTemplatePrintFrame;
-import net.sf.jasperreports.engine.fill.JRTemplatePrintText;
-import net.sf.jasperreports.engine.fill.JRTemplateText;
+import net.sf.jasperreports6.engine.JRPrintElement;
+import net.sf.jasperreports6.engine.fill.DefaultPrintElementOriginator;
+import net.sf.jasperreports6.engine.fill.JRTemplateFrame;
+import net.sf.jasperreports6.engine.fill.JRTemplatePrintFrame;
+import net.sf.jasperreports6.engine.fill.JRTemplatePrintText;
+import net.sf.jasperreports6.engine.fill.JRTemplateText;
 
 /**
  * @author Lucian Chirita (lucianc@users.sourceforge.net)

@@ -84,10 +84,10 @@
 	
 	<target name="antlr.generate" description="Generates source files for ANTLR grammars">
 		<ivy:cachepath pathid="project-lib" log="download-only" conf="compile"/>
-		<antlr target="src/net/sf/jasperreports/olap/mapping/mapping.g">
+		<antlr target="src/net/sf/jasperreports6/olap/mapping/mapping.g">
 			<classpath refid="project-classpath"/>
 		</antlr>
-		<antlr target="src/net/sf/jasperreports/engine/json/parser/json_grammar.g">
+		<antlr target="src/net/sf/jasperreports6/engine/json/parser/json_grammar.g">
 			<classpath refid="project-classpath"/>
 		</antlr>
 	</target>
@@ -107,7 +107,7 @@
 
 	<target name="javaflow" depends="compile" description="Builds the JavaFlow instrumentated JAR file.">
 		<ivy:cachepath pathid="project-lib" log="download-only" conf="javaflow"/> 
-		<taskdef name="javaflow" classname="net.sf.jasperreports.ant.JavaflowRewriteTask">
+		<taskdef name="javaflow" classname="net.sf.jasperreports6.ant.JavaflowRewriteTask">
 			<classpath refid="project-classpath"/>
 		</taskdef>
 
@@ -117,19 +117,19 @@
 
 		<replaceregexp
 			file="./build/javaflow/default.jasperreports.properties"
-			match="net.sf.jasperreports.subreport.runner.factory\=[\w\.]*"
-			replace="net.sf.jasperreports.subreport.runner.factory=net.sf.jasperreports.engine.fill.JRContinuationSubreportRunnerFactory">
+			match="net.sf.jasperreports6.subreport.runner.factory\=[\w\.]*"
+			replace="net.sf.jasperreports6.subreport.runner.factory=net.sf.jasperreports6.engine.fill.JRContinuationSubreportRunnerFactory">
 		</replaceregexp>
 
 		<javaflow srcdir="./build/javaflow" destdir="./build/javaflow" mode="asm5">
-			<include name="net/sf/jasperreports/engine/fill/BaseReportFiller.class"/>
-			<include name="net/sf/jasperreports/engine/fill/JRBaseFiller.class"/>
-			<include name="net/sf/jasperreports/engine/fill/JRVerticalFiller.class"/>
-			<include name="net/sf/jasperreports/engine/fill/JRHorizontalFiller.class"/>
-			<include name="net/sf/jasperreports/engine/fill/JRFillSubreport.class"/>
-			<include name="net/sf/jasperreports/engine/fill/JRSubreportRunnable.class"/>
-			<include name="net/sf/jasperreports/engine/fill/JRContinuationSubreportRunner.class"/>
-			<include name="net/sf/jasperreports/engine/fill/FillerSubreportParent.class"/>
+			<include name="net/sf/jasperreports6/engine/fill/BaseReportFiller.class"/>
+			<include name="net/sf/jasperreports6/engine/fill/JRBaseFiller.class"/>
+			<include name="net/sf/jasperreports6/engine/fill/JRVerticalFiller.class"/>
+			<include name="net/sf/jasperreports6/engine/fill/JRHorizontalFiller.class"/>
+			<include name="net/sf/jasperreports6/engine/fill/JRFillSubreport.class"/>
+			<include name="net/sf/jasperreports6/engine/fill/JRSubreportRunnable.class"/>
+			<include name="net/sf/jasperreports6/engine/fill/JRContinuationSubreportRunner.class"/>
+			<include name="net/sf/jasperreports6/engine/fill/FillerSubreportParent.class"/>
 		</javaflow>
 
 		<mkdir dir="./dist"/> 
@@ -168,7 +168,7 @@
 		<tstamp>
 			<format property="CURRENT_YEAR" pattern="yyyy" locale="en"/>
 		</tstamp>
-		<javadoc packagenames="net.sf.jasperreports.*"
+		<javadoc packagenames="net.sf.jasperreports6.*"
 				sourcepath="./src"
 				destdir="./dist/docs/api"
 				author="true"
@@ -217,7 +217,7 @@
 	
 	<target name="schemaref" description="Generates the Schema Reference.">
 		<ivy:cachepath pathid="project-lib" log="download-only" conf="docs"/> 
-		<xslt basedir="src/net/sf/jasperreports/engine/dtds" in="src/net/sf/jasperreports/engine/dtds/jasperreport.xsd" destdir="dist/docs" style="docs/schema.reference.xsl" out="./dist/docs/schema.reference.html">
+		<xslt basedir="src/net/sf/jasperreports6/engine/dtds" in="src/net/sf/jasperreports6/engine/dtds/jasperreport.xsd" destdir="dist/docs" style="docs/schema.reference.xsl" out="./dist/docs/schema.reference.html">
 			<param name="sf.net" expression="${sf.net}"/>
 			<param name="version" expression="${version}"/>
 			<classpath refid="project-classpath"/>
@@ -226,7 +226,7 @@
 	
 	<target name="partschemaref" description="Generates the Report Parts Schema Reference.">
 		<ivy:cachepath pathid="project-lib" log="download-only" conf="docs"/> 
-		<xslt basedir="src/net/sf/jasperreports/parts" in="src/net/sf/jasperreports/parts/parts.xsd" destdir="dist/docs" style="docs/parts.schema.reference.xsl" out="./dist/docs/parts.schema.reference.html">
+		<xslt basedir="src/net/sf/jasperreports6/parts" in="src/net/sf/jasperreports6/parts/parts.xsd" destdir="dist/docs" style="docs/parts.schema.reference.xsl" out="./dist/docs/parts.schema.reference.html">
 			<param name="sf.net" expression="${sf.net}"/>
 			<param name="version" expression="${version}"/>
 			<classpath refid="project-classpath"/>
@@ -235,7 +235,7 @@
 	
 	<target name="componentschemaref" description="Generates the Component Schema Reference.">
 		<ivy:cachepath pathid="project-lib" log="download-only" conf="docs"/> 
-		<xslt basedir="src/net/sf/jasperreports/components" in="src/net/sf/jasperreports/components/components.xsd" destdir="dist/docs" style="docs/components.schema.reference.xsl" out="./dist/docs/components.schema.reference.html">
+		<xslt basedir="src/net/sf/jasperreports6/components" in="src/net/sf/jasperreports6/components/components.xsd" destdir="dist/docs" style="docs/components.schema.reference.xsl" out="./dist/docs/components.schema.reference.html">
 			<param name="sf.net" expression="${sf.net}"/>
 			<param name="version" expression="${version}"/>
 			<classpath refid="project-classpath"/>

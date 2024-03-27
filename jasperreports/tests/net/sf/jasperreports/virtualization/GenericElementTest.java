@@ -28,16 +28,16 @@ import java.util.Map;
 import java.util.Set;
 import java.util.UUID;
 
-import net.sf.jasperreports.engine.JRGenericElementType;
-import net.sf.jasperreports.engine.fill.DefaultPrintElementOriginator;
-import net.sf.jasperreports.engine.fill.JREvaluationTime;
-import net.sf.jasperreports.engine.fill.JRRecordedValues;
-import net.sf.jasperreports.engine.fill.JRRecordedValuesGenericPrintElement;
-import net.sf.jasperreports.engine.fill.JRTemplateGenericElement;
-import net.sf.jasperreports.engine.fill.JRTemplateGenericPrintElement;
-import net.sf.jasperreports.engine.xml.JRXmlConstants;
-
 import org.testng.annotations.Test;
+
+import net.sf.jasperreports6.engine.JRGenericElementType;
+import net.sf.jasperreports6.engine.fill.DefaultPrintElementOriginator;
+import net.sf.jasperreports6.engine.fill.JREvaluationTime;
+import net.sf.jasperreports6.engine.fill.JRRecordedValues;
+import net.sf.jasperreports6.engine.fill.JRRecordedValuesGenericPrintElement;
+import net.sf.jasperreports6.engine.fill.JRTemplateGenericElement;
+import net.sf.jasperreports6.engine.fill.JRTemplateGenericPrintElement;
+import net.sf.jasperreports6.engine.xml.JRXmlConstants;
 
 /**
  * @author Lucian Chirita (lucianc@users.sourceforge.net)

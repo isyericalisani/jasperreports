@@ -32,8 +32,8 @@ import java.util.Map;
 
 import org.testng.annotations.Test;
 
-import net.sf.jasperreports.engine.util.JRStyledText;
-import net.sf.jasperreports.engine.util.JRStyledText.Run;
+import net.sf.jasperreports6.engine.util.JRStyledText;
+import net.sf.jasperreports6.engine.util.JRStyledText.Run;
 
 /**
  * 

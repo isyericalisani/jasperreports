@@ -48,18 +48,18 @@ import org.testng.ITestContext;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
-import net.sf.jasperreports.engine.JRException;
-import net.sf.jasperreports.engine.JRParameter;
-import net.sf.jasperreports.engine.JasperCompileManager;
-import net.sf.jasperreports.engine.JasperFillManager;
-import net.sf.jasperreports.engine.JasperPrint;
-import net.sf.jasperreports.engine.JasperReport;
-import net.sf.jasperreports.engine.JasperReportsContext;
-import net.sf.jasperreports.engine.SimpleJasperReportsContext;
-import net.sf.jasperreports.engine.design.JasperDesign;
-import net.sf.jasperreports.engine.util.JRLoader;
-import net.sf.jasperreports.engine.util.JRResourcesUtil;
-import net.sf.jasperreports.engine.xml.JRXmlLoader;
+import net.sf.jasperreports6.engine.JRException;
+import net.sf.jasperreports6.engine.JRParameter;
+import net.sf.jasperreports6.engine.JasperCompileManager;
+import net.sf.jasperreports6.engine.JasperFillManager;
+import net.sf.jasperreports6.engine.JasperPrint;
+import net.sf.jasperreports6.engine.JasperReport;
+import net.sf.jasperreports6.engine.JasperReportsContext;
+import net.sf.jasperreports6.engine.SimpleJasperReportsContext;
+import net.sf.jasperreports6.engine.design.JasperDesign;
+import net.sf.jasperreports6.engine.util.JRLoader;
+import net.sf.jasperreports6.engine.util.JRResourcesUtil;
+import net.sf.jasperreports6.engine.xml.JRXmlLoader;
 
 /**
  * @author Teodor Danciu (teodord@users.sourceforge.net)

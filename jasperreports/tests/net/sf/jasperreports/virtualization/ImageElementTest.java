@@ -35,21 +35,21 @@ import java.util.UUID;
 
 import org.testng.annotations.Test;
 
-import net.sf.jasperreports.engine.DefaultJasperReportsContext;
-import net.sf.jasperreports.engine.JRException;
-import net.sf.jasperreports.engine.JRPrintHyperlinkParameter;
-import net.sf.jasperreports.engine.JRPrintHyperlinkParameters;
-import net.sf.jasperreports.engine.JasperReportsContext;
-import net.sf.jasperreports.engine.fill.DefaultPrintElementOriginator;
-import net.sf.jasperreports.engine.fill.JREvaluationTime;
-import net.sf.jasperreports.engine.fill.JRRecordedValues;
-import net.sf.jasperreports.engine.fill.JRRecordedValuesPrintImage;
-import net.sf.jasperreports.engine.fill.JRTemplateImage;
-import net.sf.jasperreports.engine.fill.JRTemplatePrintImage;
-import net.sf.jasperreports.engine.fill.JRVirtualizationContext;
-import net.sf.jasperreports.renderers.AbstractRenderToImageDataRenderer;
-import net.sf.jasperreports.renderers.DataRenderable;
-import net.sf.jasperreports.renderers.SimpleDataRenderer;
+import net.sf.jasperreports6.engine.DefaultJasperReportsContext;
+import net.sf.jasperreports6.engine.JRException;
+import net.sf.jasperreports6.engine.JRPrintHyperlinkParameter;
+import net.sf.jasperreports6.engine.JRPrintHyperlinkParameters;
+import net.sf.jasperreports6.engine.JasperReportsContext;
+import net.sf.jasperreports6.engine.fill.DefaultPrintElementOriginator;
+import net.sf.jasperreports6.engine.fill.JREvaluationTime;
+import net.sf.jasperreports6.engine.fill.JRRecordedValues;
+import net.sf.jasperreports6.engine.fill.JRRecordedValuesPrintImage;
+import net.sf.jasperreports6.engine.fill.JRTemplateImage;
+import net.sf.jasperreports6.engine.fill.JRTemplatePrintImage;
+import net.sf.jasperreports6.engine.fill.JRVirtualizationContext;
+import net.sf.jasperreports6.renderers.AbstractRenderToImageDataRenderer;
+import net.sf.jasperreports6.renderers.DataRenderable;
+import net.sf.jasperreports6.renderers.SimpleDataRenderer;
 
 /**
  * @author Lucian Chirita (lucianc@users.sourceforge.net)

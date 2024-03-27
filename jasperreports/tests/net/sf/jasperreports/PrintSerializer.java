@@ -30,11 +30,11 @@ import java.util.function.BiConsumer;
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
 
-import net.sf.jasperreports.engine.JRException;
-import net.sf.jasperreports.engine.JRVirtualizer;
-import net.sf.jasperreports.engine.JasperPrint;
-import net.sf.jasperreports.engine.util.JRLoader;
-import net.sf.jasperreports.engine.util.JRSaver;
+import net.sf.jasperreports6.engine.JRException;
+import net.sf.jasperreports6.engine.JRVirtualizer;
+import net.sf.jasperreports6.engine.JasperPrint;
+import net.sf.jasperreports6.engine.util.JRLoader;
+import net.sf.jasperreports6.engine.util.JRSaver;
 
 /**
  * @author Lucian Chirita (lucianc@users.sourceforge.net)

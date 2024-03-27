@@ -23,8 +23,8 @@
  */
 package net.sf.jasperreports;
 
-import net.sf.jasperreports.engine.JRVirtualizer;
-import net.sf.jasperreports.engine.fill.JRAbstractLRUVirtualizer;
+import net.sf.jasperreports6.engine.JRVirtualizer;
+import net.sf.jasperreports6.engine.fill.JRAbstractLRUVirtualizer;
 
 /**
  * @author Lucian Chirita (lucianc@users.sourceforge.net)

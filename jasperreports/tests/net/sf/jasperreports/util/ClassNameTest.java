@@ -26,7 +26,7 @@ package net.sf.jasperreports.util;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
-import net.sf.jasperreports.engine.util.JRClassLoader;
+import net.sf.jasperreports6.engine.util.JRClassLoader;
 
 /**
  * @author Lucian Chirita (lucianc@users.sourceforge.net)

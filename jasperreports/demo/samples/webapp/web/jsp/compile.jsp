@@ -25,7 +25,7 @@
 --%>
 
 <%@ page errorPage="error.jsp" %>
-<%@ page import="net.sf.jasperreports.engine.*" %>
+<%@ page import="net.sf.jasperreports6.engine.*" %>
 
 <%
 	JasperCompileManager.compileReportToFile(application.getRealPath("/reports/WebappReport.jrxml"));

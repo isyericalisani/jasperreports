@@ -25,15 +25,15 @@ package net.sf.jasperreports.virtualization;
 
 import java.io.StringWriter;
 
-import net.sf.jasperreports.engine.JRException;
-import net.sf.jasperreports.engine.JRPrintElement;
-import net.sf.jasperreports.engine.JasperPrint;
-import net.sf.jasperreports.engine.base.JRBasePrintPage;
-import net.sf.jasperreports.engine.export.JRXmlExporter;
-import net.sf.jasperreports.engine.fill.JRTemplatePrintElement;
-import net.sf.jasperreports.engine.fill.JRVirtualizationContext;
-import net.sf.jasperreports.export.SimpleExporterInput;
-import net.sf.jasperreports.export.SimpleXmlExporterOutput;
+import net.sf.jasperreports6.engine.JRException;
+import net.sf.jasperreports6.engine.JRPrintElement;
+import net.sf.jasperreports6.engine.JasperPrint;
+import net.sf.jasperreports6.engine.base.JRBasePrintPage;
+import net.sf.jasperreports6.engine.export.JRXmlExporter;
+import net.sf.jasperreports6.engine.fill.JRTemplatePrintElement;
+import net.sf.jasperreports6.engine.fill.JRVirtualizationContext;
+import net.sf.jasperreports6.export.SimpleExporterInput;
+import net.sf.jasperreports6.export.SimpleXmlExporterOutput;
 
 /**
  * @author Lucian Chirita (lucianc@users.sourceforge.net)

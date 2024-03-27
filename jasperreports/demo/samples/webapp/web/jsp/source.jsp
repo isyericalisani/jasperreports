@@ -25,7 +25,7 @@
 --%>
 
 <%@ page errorPage="error.jsp" %>
-<%@ page import="net.sf.jasperreports.engine.util.*" %>
+<%@ page import="net.sf.jasperreports6.engine.util.*" %>
 <%@ page import="java.io.*" %>
 
 <html>

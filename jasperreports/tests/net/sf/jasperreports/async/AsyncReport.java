@@ -26,11 +26,11 @@ package net.sf.jasperreports.async;
 import java.util.Map;
 
 import net.sf.jasperreports.Report;
-import net.sf.jasperreports.engine.JRException;
-import net.sf.jasperreports.engine.JasperPrint;
-import net.sf.jasperreports.engine.fill.AsynchronousFillHandle;
-import net.sf.jasperreports.engine.fill.FillListener;
-import net.sf.jasperreports.web.servlets.AsyncJasperPrintAccessor;
+import net.sf.jasperreports6.engine.JRException;
+import net.sf.jasperreports6.engine.JasperPrint;
+import net.sf.jasperreports6.engine.fill.AsynchronousFillHandle;
+import net.sf.jasperreports6.engine.fill.FillListener;
+import net.sf.jasperreports6.web.servlets.AsyncJasperPrintAccessor;
 
 /**
  * @author Lucian Chirita (lucianc@users.sourceforge.net)

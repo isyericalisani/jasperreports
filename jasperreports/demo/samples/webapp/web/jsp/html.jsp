@@ -31,16 +31,16 @@
 <%@ page import="java.util.Map" %>
 
 <%@ page import="datasource.WebappDataSource" %>
-<%@ page import="net.sf.jasperreports.engine.JRRuntimeException" %>
-<%@ page import="net.sf.jasperreports.engine.JasperFillManager" %>
-<%@ page import="net.sf.jasperreports.engine.JasperPrint" %>
-<%@ page import="net.sf.jasperreports.engine.JasperReport" %>
-<%@ page import="net.sf.jasperreports.engine.export.HtmlExporter" %>
-<%@ page import="net.sf.jasperreports.engine.util.JRLoader" %>
-<%@ page import="net.sf.jasperreports.export.SimpleExporterInput" %>
-<%@ page import="net.sf.jasperreports.export.SimpleHtmlExporterOutput" %>
-<%@ page import="net.sf.jasperreports.j2ee.servlets.ImageServlet" %>
-<%@ page import="net.sf.jasperreports.web.util.WebHtmlResourceHandler" %>
+<%@ page import="net.sf.jasperreports6.engine.JRRuntimeException" %>
+<%@ page import="net.sf.jasperreports6.engine.JasperFillManager" %>
+<%@ page import="net.sf.jasperreports6.engine.JasperPrint" %>
+<%@ page import="net.sf.jasperreports6.engine.JasperReport" %>
+<%@ page import="net.sf.jasperreports6.engine.export.HtmlExporter" %>
+<%@ page import="net.sf.jasperreports6.engine.util.JRLoader" %>
+<%@ page import="net.sf.jasperreports6.export.SimpleExporterInput" %>
+<%@ page import="net.sf.jasperreports6.export.SimpleHtmlExporterOutput" %>
+<%@ page import="net.sf.jasperreports6.j2ee.servlets.ImageServlet" %>
+<%@ page import="net.sf.jasperreports6.web.util.WebHtmlResourceHandler" %>
 
 
 <%

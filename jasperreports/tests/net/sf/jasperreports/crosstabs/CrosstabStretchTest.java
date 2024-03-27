@@ -30,9 +30,9 @@ import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
 import net.sf.jasperreports.AbstractXmlTest;
-import net.sf.jasperreports.engine.JRException;
-import net.sf.jasperreports.engine.SimpleJasperReportsContext;
-import net.sf.jasperreports.engine.type.StretchTypeEnum;
+import net.sf.jasperreports6.engine.JRException;
+import net.sf.jasperreports6.engine.SimpleJasperReportsContext;
+import net.sf.jasperreports6.engine.type.StretchTypeEnum;
 
 /**
  * @author Teodor Danciu (teodord@users.sourceforge.net)

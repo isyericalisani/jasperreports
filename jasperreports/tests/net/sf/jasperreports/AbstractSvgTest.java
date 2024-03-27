@@ -41,12 +41,12 @@ import org.apache.batik.transcoder.svg2svg.SVGTranscoder;
 import org.w3c.dom.DOMImplementation;
 import org.w3c.dom.Document;
 
-import net.sf.jasperreports.engine.JRException;
-import net.sf.jasperreports.engine.JasperPrint;
-import net.sf.jasperreports.engine.export.JRGraphics2DExporter;
-import net.sf.jasperreports.export.SimpleExporterInput;
-import net.sf.jasperreports.export.SimpleGraphics2DExporterOutput;
-import net.sf.jasperreports.export.SimpleGraphics2DReportConfiguration;
+import net.sf.jasperreports6.engine.JRException;
+import net.sf.jasperreports6.engine.JasperPrint;
+import net.sf.jasperreports6.engine.export.JRGraphics2DExporter;
+import net.sf.jasperreports6.export.SimpleExporterInput;
+import net.sf.jasperreports6.export.SimpleGraphics2DExporterOutput;
+import net.sf.jasperreports6.export.SimpleGraphics2DReportConfiguration;
 
 /**
  * @author Teodor Danciu (teodord@users.sourceforge.net)

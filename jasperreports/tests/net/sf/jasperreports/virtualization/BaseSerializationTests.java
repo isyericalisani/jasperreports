@@ -27,13 +27,13 @@ import java.io.ByteArrayInputStream;
 import java.io.ByteArrayOutputStream;
 import java.io.IOException;
 
-import net.sf.jasperreports.engine.DefaultJasperReportsContext;
-import net.sf.jasperreports.engine.fill.JRVirtualizationContext;
-import net.sf.jasperreports.engine.util.LocalVirtualizationSerializer;
-import net.sf.jasperreports.engine.virtualization.LocalVirtualizationInput;
-import net.sf.jasperreports.engine.virtualization.LocalVirtualizationOutput;
-import net.sf.jasperreports.engine.virtualization.VirtualizationInput;
-import net.sf.jasperreports.engine.virtualization.VirtualizationOutput;
+import net.sf.jasperreports6.engine.DefaultJasperReportsContext;
+import net.sf.jasperreports6.engine.fill.JRVirtualizationContext;
+import net.sf.jasperreports6.engine.util.LocalVirtualizationSerializer;
+import net.sf.jasperreports6.engine.virtualization.LocalVirtualizationInput;
+import net.sf.jasperreports6.engine.virtualization.LocalVirtualizationOutput;
+import net.sf.jasperreports6.engine.virtualization.VirtualizationInput;
+import net.sf.jasperreports6.engine.virtualization.VirtualizationOutput;
 
 /**
  * @author Lucian Chirita (lucianc@users.sourceforge.net)

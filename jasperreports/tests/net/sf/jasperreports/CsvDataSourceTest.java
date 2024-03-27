@@ -32,8 +32,8 @@ import java.util.Map.Entry;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
-import net.sf.jasperreports.engine.JRException;
-import net.sf.jasperreports.engine.data.JRCsvDataSource;
+import net.sf.jasperreports6.engine.JRException;
+import net.sf.jasperreports6.engine.data.JRCsvDataSource;
 
 /**
  * @author Lucian Chirita (lucianc@users.sourceforge.net)

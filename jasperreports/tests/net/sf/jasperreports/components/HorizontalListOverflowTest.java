@@ -30,7 +30,7 @@ import java.util.Map;
 import org.testng.annotations.Test;
 
 import net.sf.jasperreports.Report;
-import net.sf.jasperreports.engine.JRException;
+import net.sf.jasperreports6.engine.JRException;
 
 public class HorizontalListOverflowTest
 {

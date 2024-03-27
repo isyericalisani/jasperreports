@@ -26,11 +26,11 @@ package net.sf.jasperreports;
 import java.io.IOException;
 import java.io.OutputStream;
 
-import net.sf.jasperreports.engine.JRException;
-import net.sf.jasperreports.engine.JasperPrint;
-import net.sf.jasperreports.engine.export.HtmlExporter;
-import net.sf.jasperreports.export.SimpleExporterInput;
-import net.sf.jasperreports.export.SimpleHtmlExporterOutput;
+import net.sf.jasperreports6.engine.JRException;
+import net.sf.jasperreports6.engine.JasperPrint;
+import net.sf.jasperreports6.engine.export.HtmlExporter;
+import net.sf.jasperreports6.export.SimpleExporterInput;
+import net.sf.jasperreports6.export.SimpleHtmlExporterOutput;
 
 /**
  * @author Teodor Danciu (teodord@users.sourceforge.net)

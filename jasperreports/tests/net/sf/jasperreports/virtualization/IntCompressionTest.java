@@ -31,10 +31,10 @@ import java.io.ObjectOutputStream;
 import java.util.ArrayList;
 import java.util.List;
 
-import net.sf.jasperreports.engine.virtualization.SerializationUtils;
-
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
+
+import net.sf.jasperreports6.engine.virtualization.SerializationUtils;
 
 /**
  * @author Lucian Chirita (lucianc@users.sourceforge.net)

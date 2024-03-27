@@ -33,9 +33,9 @@ import org.testng.annotations.Test;
 import net.sf.jasperreports.OwnVirtualizerContainer;
 import net.sf.jasperreports.PrintSerializer;
 import net.sf.jasperreports.Report;
-import net.sf.jasperreports.engine.JRException;
-import net.sf.jasperreports.engine.JRParameter;
-import net.sf.jasperreports.engine.fill.JRGzipVirtualizer;
+import net.sf.jasperreports6.engine.JRException;
+import net.sf.jasperreports6.engine.JRParameter;
+import net.sf.jasperreports6.engine.fill.JRGzipVirtualizer;
 
 /**
  * @author Lucian Chirita (lucianc@users.sourceforge.net)

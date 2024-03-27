@@ -29,8 +29,8 @@ import java.util.List;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
-import net.sf.jasperreports.engine.util.CharPredicateCache;
-import net.sf.jasperreports.engine.util.CharPredicateCache.Result;
+import net.sf.jasperreports6.engine.util.CharPredicateCache;
+import net.sf.jasperreports6.engine.util.CharPredicateCache.Result;
 
 /**
  * @author Lucian Chirita (lucianc@users.sourceforge.net)

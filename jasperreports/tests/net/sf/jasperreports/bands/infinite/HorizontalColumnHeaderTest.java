@@ -28,8 +28,8 @@ import java.util.HashMap;
 import org.testng.annotations.Test;
 
 import net.sf.jasperreports.Report;
-import net.sf.jasperreports.engine.JREmptyDataSource;
-import net.sf.jasperreports.engine.JRParameter;
+import net.sf.jasperreports6.engine.JREmptyDataSource;
+import net.sf.jasperreports6.engine.JRParameter;
 
 /**
  * @author Lucian Chirita (lucianc@users.sourceforge.net)

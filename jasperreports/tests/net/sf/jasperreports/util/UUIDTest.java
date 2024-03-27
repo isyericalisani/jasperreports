@@ -28,8 +28,8 @@ import java.util.UUID;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
-import net.sf.jasperreports.engine.type.BandTypeEnum;
-import net.sf.jasperreports.engine.util.DigestUtils;
+import net.sf.jasperreports6.engine.type.BandTypeEnum;
+import net.sf.jasperreports6.engine.util.DigestUtils;
 
 /**
  * @author Lucian Chirita (lucianc@users.sourceforge.net)

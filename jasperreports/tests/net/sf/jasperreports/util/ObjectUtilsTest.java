@@ -26,8 +26,8 @@ package net.sf.jasperreports.util;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
-import net.sf.jasperreports.engine.JRPropertiesMap;
-import net.sf.jasperreports.engine.util.ObjectUtils;
+import net.sf.jasperreports6.engine.JRPropertiesMap;
+import net.sf.jasperreports6.engine.util.ObjectUtils;
 
 /**
  * @author Lucian Chirita (lucianc@users.sourceforge.net)

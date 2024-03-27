@@ -30,9 +30,9 @@ import java.util.concurrent.atomic.AtomicInteger;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
-import net.sf.jasperreports.engine.JRException;
-import net.sf.jasperreports.engine.JasperPrint;
-import net.sf.jasperreports.engine.fill.FillListener;
+import net.sf.jasperreports6.engine.JRException;
+import net.sf.jasperreports6.engine.JasperPrint;
+import net.sf.jasperreports6.engine.fill.FillListener;
 
 /**
  * @author Lucian Chirita (lucianc@users.sourceforge.net)

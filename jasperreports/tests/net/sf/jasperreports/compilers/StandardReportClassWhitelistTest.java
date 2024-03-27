@@ -26,6 +26,8 @@ package net.sf.jasperreports.compilers;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
+import net.sf.jasperreports6.compilers.StandardReportClassWhitelist;
+
 /**
  * @author Lucian Chirita (lucianc@users.sourceforge.net)
  */

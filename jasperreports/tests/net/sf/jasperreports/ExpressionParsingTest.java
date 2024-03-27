@@ -28,8 +28,8 @@ import org.apache.commons.logging.LogFactory;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
-import net.sf.jasperreports.engine.JRExpressionChunk;
-import net.sf.jasperreports.engine.design.JRDesignExpression;
+import net.sf.jasperreports6.engine.JRExpressionChunk;
+import net.sf.jasperreports6.engine.design.JRDesignExpression;
 
 /**
  * @author Lucian Chirita (lucianc@users.sourceforge.net)

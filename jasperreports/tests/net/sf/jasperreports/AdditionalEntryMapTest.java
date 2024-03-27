@@ -36,7 +36,7 @@ import java.util.Set;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
-import net.sf.jasperreports.engine.util.AdditionalEntryMap;
+import net.sf.jasperreports6.engine.util.AdditionalEntryMap;
 
 /**
  * @author Lucian Chirita (lucianc@users.sourceforge.net)
