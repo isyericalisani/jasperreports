@@ -35,7 +35,7 @@ import net.sf.jasperreports6.engine.JasperPrint;
 public interface JasperPrintAccessor
 {
 	
-	public static final String REPORT_CONTEXT_PARAMETER_JASPER_PRINT_ACCESSOR = "net.sf.jasperreports.web.jasper_print.accessor";
+	public static final String REPORT_CONTEXT_PARAMETER_JASPER_PRINT_ACCESSOR = "net.sf.jasperreports6.web.jasper_print.accessor";
 
 	/**
 	 * Ensures that a page is available in the generated report.

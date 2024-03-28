@@ -66,7 +66,7 @@ public class JRXPathQueryExecuterFactory extends AbstractQueryExecuterFactory im
 	 * </p>
 	 */
 	@Property(
-			name="net.sf.jasperreports.xml.namespace.{arbitrary_prefix}",
+			name="net.sf.jasperreports6.xml.namespace.{arbitrary_prefix}",
 			category = PropertyConstants.CATEGORY_DATA_SOURCE,
 			scopes = {PropertyScope.CONTEXT, PropertyScope.DATASET},
 			scopeQualifications = {JRXPathQueryExecuterFactory.QUERY_EXECUTER_NAME},
@@ -103,7 +103,7 @@ public class JRXPathQueryExecuterFactory extends AbstractQueryExecuterFactory im
 	public final static String XML_DETECT_NAMESPACES = JRPropertiesUtil.PROPERTY_PREFIX + "xml.detect.namespaces";
 	
 	
-	public static final String QUERY_EXECUTER_NAME = "net.sf.jasperreports.query.executer:XPATH";
+	public static final String QUERY_EXECUTER_NAME = "net.sf.jasperreports6.query.executer:XPATH";
 	
 	/**
 	 * Built-in parameter holding the value of the org.w3c.dom.Document used to run the XPath query.

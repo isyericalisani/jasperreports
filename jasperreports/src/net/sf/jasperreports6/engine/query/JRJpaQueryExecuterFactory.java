@@ -46,7 +46,7 @@ import net.sf.jasperreports6.properties.PropertyConstants;
 public class JRJpaQueryExecuterFactory extends AbstractQueryExecuterFactory implements Designated 
 {
 	
-	public static final String QUERY_EXECUTER_NAME = "net.sf.jasperreports.query.executer:EJBQL";
+	public static final String QUERY_EXECUTER_NAME = "net.sf.jasperreports6.query.executer:EJBQL";
 
 	/**
 	 * EJBQL query language.
@@ -95,7 +95,7 @@ public class JRJpaQueryExecuterFactory extends AbstractQueryExecuterFactory impl
 	 * Property specifying the prefix for EJBQL query hints.
 	 */
 	@Property(
-			name = "net.sf.jasperreports.ejbql.query.hint.{hint}",
+			name = "net.sf.jasperreports6.ejbql.query.hint.{hint}",
 			category = PropertyConstants.CATEGORY_DATA_SOURCE,
 			scopes = {PropertyScope.DATASET},
 			scopeQualifications = {QUERY_EXECUTER_NAME},

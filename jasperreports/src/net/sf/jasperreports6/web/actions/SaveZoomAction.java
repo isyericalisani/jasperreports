@@ -74,7 +74,7 @@ public class SaveZoomAction extends AbstractAction {
 				}
 			}
 		} else {
-			errors.addAndThrow("net.sf.jasperreports.web.actions.empty.zoom");
+			errors.addAndThrow("net.sf.jasperreports6.web.actions.empty.zoom");
 		}
 	}
 

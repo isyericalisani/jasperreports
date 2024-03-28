@@ -39,7 +39,7 @@ import net.sf.jasperreports6.properties.PropertyConstants;
 public abstract class AbstractXlsQueryExecuterFactory extends AbstractQueryExecuterFactory implements Designated 
 {
 	
-	public static final String QUERY_EXECUTER_NAME = "net.sf.jasperreports.query.executer:XLS";
+	public static final String QUERY_EXECUTER_NAME = "net.sf.jasperreports6.query.executer:XLS";
 	
 	/**
 	 * Built-in parameter holding the value of the <code>Workbook</code> to be used for obtaining the Excel data.
@@ -74,7 +74,7 @@ public abstract class AbstractXlsQueryExecuterFactory extends AbstractQueryExecu
 	 * <code>net.sf.jasperreports.xls.column.names.{arbitrary_name}=value1[, value2, ...]</code>
 	 */
 	@Property(
-			name = "net.sf.jasperreports.xls.column.names.{arbitrary_name}",
+			name = "net.sf.jasperreports6.xls.column.names.{arbitrary_name}",
 			category = PropertyConstants.CATEGORY_DATA_SOURCE,
 			scopes = {PropertyScope.CONTEXT, PropertyScope.DATASET},
 			scopeQualifications = {QUERY_EXECUTER_NAME},
@@ -89,7 +89,7 @@ public abstract class AbstractXlsQueryExecuterFactory extends AbstractQueryExecu
 	 * <code>net.sf.jasperreports.xls.column.indexes.{arbitrary_name}=value1[, value2, ...]</code>
 	 */
 	@Property(
-			name = "net.sf.jasperreports.xls.column.indexes.{arbitrary_name}",
+			name = "net.sf.jasperreports6.xls.column.indexes.{arbitrary_name}",
 			category = PropertyConstants.CATEGORY_DATA_SOURCE,
 			scopes = {PropertyScope.CONTEXT, PropertyScope.DATASET},
 			scopeQualifications = {QUERY_EXECUTER_NAME},

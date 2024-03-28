@@ -63,7 +63,7 @@ public final class ExtensionsEnvironment
 	 */
 	@Property(
 			category = PropertyConstants.CATEGORY_EXTENSIONS,
-			defaultValue = "net.sf.jasperreports.extensions.DefaultExtensionsRegistry",
+			defaultValue = "net.sf.jasperreports6.extensions.DefaultExtensionsRegistry",
 			scopes = {PropertyScope.GLOBAL},
 			sinceVersion = PropertyConstants.VERSION_3_1_0
 			)

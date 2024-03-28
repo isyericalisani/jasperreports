@@ -152,7 +152,7 @@ public interface PptxExporterConfiguration extends ExporterConfiguration
 	 * @see JRPropertiesUtil
 	 */
 	@Property(
-			name = "net.sf.jasperreports.export.pptx.embed.fonts",
+			name = "net.sf.jasperreports6.export.pptx.embed.fonts",
 			defaultValue = PropertyConstants.BOOLEAN_FALSE,
 			category = PropertyConstants.CATEGORY_EXPORT,
 			scopes = {PropertyScope.CONTEXT, PropertyScope.REPORT},

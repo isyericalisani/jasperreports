@@ -51,7 +51,7 @@ public class DefaultExporterFilterFactory implements ExporterFilterFactory
 	 * The prefix of properties that are used to register filter factories.
 	 */
 	@Property(
-			name = "net.sf.jasperreports.export.filter.factory.{filter_element}",
+			name = "net.sf.jasperreports6.export.filter.factory.{filter_element}",
 			category = PropertyConstants.CATEGORY_EXPORT,
 			scopes = {PropertyScope.CONTEXT, PropertyScope.REPORT},
 			sinceVersion = PropertyConstants.VERSION_3_0_1

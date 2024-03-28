@@ -45,12 +45,12 @@ public abstract class AbstractWebResourceHandler implements WebResourceHandler
 	/**
 	 * 
 	 */
-	public static final String PROPERTIES_WEB_RESOURCE_PATTERN_PREFIX = "net.sf.jasperreports.web.resource.pattern.";
+	public static final String PROPERTIES_WEB_RESOURCE_PATTERN_PREFIX = "net.sf.jasperreports6.web.resource.pattern.";
 
 	/**
 	 * Boolean property to control the setting of the response header Access-Control-Allow-Origin to *
 	 */
-	public static final String PROPERTY_ACCESS_CONTROL_ALLOW_ORIGIN = "net.sf.jasperreports.web.resource.cors.header.allow.origin.all";
+	public static final String PROPERTY_ACCESS_CONTROL_ALLOW_ORIGIN = "net.sf.jasperreports6.web.resource.cors.header.allow.origin.all";
 
 	@Override
 	public boolean handleResource(JasperReportsContext jasperReportsContext, HttpServletRequest request, HttpServletResponse response) 

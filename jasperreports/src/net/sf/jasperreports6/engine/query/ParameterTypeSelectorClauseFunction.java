@@ -50,7 +50,7 @@ public class ParameterTypeSelectorClauseFunction implements JRClauseFunction
 	public static final String EXCEPTION_MESSAGE_KEY_QUERY_PARAMETER_TYPE_SELECTOR_CLAUSE_REQUIRED_TOKEN_NOT_FOUND = "query.parameter.type.selector.clause.required.token.not.found";
 	
 	private static final String CONTEXT_KEY_FUNCTION_PER_TYPES_CACHE = 
-			"net.sf.jasperreports.engine.query.ParameterTypeSelectorClauseFunction.cache";
+			"net.sf.jasperreports6.engine.query.ParameterTypeSelectorClauseFunction.cache";
 	
 	private final int[] parameterPositions;
 	

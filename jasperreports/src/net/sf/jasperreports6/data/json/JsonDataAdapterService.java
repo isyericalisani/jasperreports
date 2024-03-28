@@ -46,9 +46,9 @@ import net.sf.jasperreports6.engine.util.Designator;
 public class JsonDataAdapterService extends AbstractDataAdapterService implements Designator<DataAdapter>
 {
 	
-	public static final String JSON_DESIGNATION = "net.sf.jasperreports.data.adapter:JSON";
+	public static final String JSON_DESIGNATION = "net.sf.jasperreports6.data.adapter:JSON";
 	
-	public static final String JSONQL_DESIGNATION = "net.sf.jasperreports.data.adapter:JSONQL";
+	public static final String JSONQL_DESIGNATION = "net.sf.jasperreports6.data.adapter:JSONQL";
 	
 	private DataFileStream dataStream;
 	

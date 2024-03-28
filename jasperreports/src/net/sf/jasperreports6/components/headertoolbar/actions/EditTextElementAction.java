@@ -121,11 +121,11 @@ public class EditTextElementAction extends AbstractVerifiableTableAction {
 				if (formattedNumber != null && pp.getIndex() == colValData.getFontSize().length()) {
 					colValData.setFloatFontSize(formattedNumber.floatValue());
 				} else {
-					errors.addAndThrow("net.sf.jasperreports.components.headertoolbar.actions.edit.values.invalid.font.size", colValData.getFontSize());
+					errors.addAndThrow("net.sf.jasperreports6.components.headertoolbar.actions.edit.values.invalid.font.size", colValData.getFontSize());
 				}
 
 			} catch (NumberFormatException e) {
-				errors.addAndThrow("net.sf.jasperreports.components.headertoolbar.actions.edit.values.invalid.font.size", colValData.getFontSize());
+				errors.addAndThrow("net.sf.jasperreports6.components.headertoolbar.actions.edit.values.invalid.font.size", colValData.getFontSize());
 			}
 		}
 		JRDesignTextElement textField = getTargetTextElement();
@@ -152,13 +152,13 @@ public class EditTextElementAction extends AbstractVerifiableTableAction {
 					try {
 						formatFactory.createDateFormat(colValData.getFormatPattern(), locale, null);
 					} catch (IllegalArgumentException e){
-						errors.addAndThrow("net.sf.jasperreports.components.headertoolbar.actions.edit.column.values.invalid.date.pattern", new Object[] {colValData.getFormatPattern()});
+						errors.addAndThrow("net.sf.jasperreports6.components.headertoolbar.actions.edit.column.values.invalid.date.pattern", new Object[] {colValData.getFormatPattern()});
 					}
 				} else if (filterType.equals(FilterTypesEnum.NUMERIC)) {
 					try {
 						formatFactory.createNumberFormat(colValData.getFormatPattern(), locale);
 					} catch (IllegalArgumentException e){
-						errors.addAndThrow("net.sf.jasperreports.components.headertoolbar.actions.edit.column.values.invalid.number.pattern", new Object[] {colValData.getFormatPattern()});
+						errors.addAndThrow("net.sf.jasperreports6.components.headertoolbar.actions.edit.column.values.invalid.number.pattern", new Object[] {colValData.getFormatPattern()});
 					}
 				}
 			}

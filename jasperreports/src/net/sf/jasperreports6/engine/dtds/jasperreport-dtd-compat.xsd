@@ -143,7 +143,7 @@
       <xsd:enumeration value="java.io.File"/>
       <xsd:enumeration value="java.net.URL"/>
       <xsd:enumeration value="java.io.InputStream"/>
-      <xsd:enumeration value="net.sf.jasperreports.engine.JRTemplate"/>
+      <xsd:enumeration value="net.sf.jasperreports6.engine.JRTemplate"/>
      </xsd:restriction>
     </xsd:simpleType>
    </xsd:attribute>
@@ -1096,7 +1096,7 @@
       <xsd:enumeration value="java.net.URL"/>
       <xsd:enumeration value="java.io.InputStream"/>
       <xsd:enumeration value="java.awt.Image"/>
-      <xsd:enumeration value="net.sf.jasperreports.engine.JRRenderable"/>
+      <xsd:enumeration value="net.sf.jasperreports6.engine.JRRenderable"/>
      </xsd:restriction>
     </xsd:simpleType>
    </xsd:attribute>
@@ -1575,7 +1575,7 @@
       <xsd:enumeration value="java.io.File"/>
       <xsd:enumeration value="java.net.URL"/>
       <xsd:enumeration value="java.io.InputStream"/>
-      <xsd:enumeration value="net.sf.jasperreports.engine.JasperReport"/>
+      <xsd:enumeration value="net.sf.jasperreports6.engine.JasperReport"/>
       <xsd:enumeration value="dori.jasper.engine.JasperReport"/>
      </xsd:restriction>
     </xsd:simpleType>

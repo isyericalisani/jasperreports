@@ -1708,7 +1708,7 @@ public class JRXlsxExporter extends JRXlsAbstractExporter<XlsxReportConfiguratio
 			if( application == null )
 			{
 				@SuppressWarnings("deprecation") //this can be replaced only after abandoning Java 8 support 
-				String depApplication = "JasperReports Library version " + Package.getPackage("net.sf.jasperreports.engine").getImplementationVersion();
+				String depApplication = "JasperReports Library version " + Package.getPackage("net.sf.jasperreports6.engine").getImplementationVersion();
 				application = depApplication;
 			}
 			appHelper.exportProperty(PropsAppHelper.PROPERTY_APPLICATION, application);

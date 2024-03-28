@@ -37,7 +37,7 @@ import net.sf.jasperreports6.properties.PropertyConstants;
 public class QRCodeComponent extends BarcodeComponent
 {
 	
-	public static final String COMPONENT_DESIGNATION = "net.sf.jasperreports.component.element:QRCode";
+	public static final String COMPONENT_DESIGNATION = "net.sf.jasperreports6.component.element:QRCode";
 
 	private static final long serialVersionUID = JRConstants.SERIAL_VERSION_UID;
 

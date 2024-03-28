@@ -46,7 +46,7 @@ import net.sf.jasperreports6.properties.PropertyConstants;
 public class JRHibernateQueryExecuterFactory extends AbstractQueryExecuterFactory implements Designated
 {
 	
-	public static final String QUERY_EXECUTER_NAME = "net.sf.jasperreports.query.executer:HQL";
+	public static final String QUERY_EXECUTER_NAME = "net.sf.jasperreports6.query.executer:HQL";
 
 	/**
 	 * HQL query language.

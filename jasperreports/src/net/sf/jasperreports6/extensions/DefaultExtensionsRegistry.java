@@ -92,7 +92,7 @@ public class DefaultExtensionsRegistry implements ExtensionsRegistry
 	 * The property prefix of extension registry factories.
 	 */
 	@Property(
-			name = "net.sf.jasperreports.extension.registry.factory.{arbitrary_name}",
+			name = "net.sf.jasperreports6.extension.registry.factory.{arbitrary_name}",
 			category = PropertyConstants.CATEGORY_EXTENSIONS,
 			scopes = {PropertyScope.EXTENSION},
 			sinceVersion = PropertyConstants.VERSION_3_1_0
@@ -105,7 +105,7 @@ public class DefaultExtensionsRegistry implements ExtensionsRegistry
 	 * by appending the registry ID and a fixed property suffix to it. 
 	 */
 	@Property(
-			name = "net.sf.jasperreports.extension.{registry_id}.{property_suffix}",
+			name = "net.sf.jasperreports6.extension.{registry_id}.{property_suffix}",
 			category = PropertyConstants.CATEGORY_EXTENSIONS,
 			scopes = {PropertyScope.EXTENSION},
 			sinceVersion = PropertyConstants.VERSION_3_1_0
