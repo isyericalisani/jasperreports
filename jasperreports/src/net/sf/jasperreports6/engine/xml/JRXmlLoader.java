@@ -232,6 +232,7 @@ public class JRXmlLoader
 	 */
 	public static JasperDesign load(InputStream is) throws JRException
 	{
+		System.out.println("--333-is:"+is);
 		return load(DefaultJasperReportsContext.getInstance(), is);
 	}
 

@@ -339,6 +339,7 @@ public final class JasperCompileManager
 	 */
 	public JasperReport compile(InputStream inputStream) throws JRException
 	{
+		System.out.println("--222-inputStream:"+inputStream);
 		JasperDesign jasperDesign = JRXmlLoader.load(inputStream);
 
 		return compile(jasperDesign);
@@ -606,6 +607,8 @@ public final class JasperCompileManager
 	 */
 	public static JasperReport compileReport(InputStream inputStream) throws JRException
 	{
+		System.out.println("---inputStream:"+inputStream);
+		System.out.println("---inputStream:"+inputStream.getClass());
 		return getDefaultInstance().compile(inputStream);
 	}
 
