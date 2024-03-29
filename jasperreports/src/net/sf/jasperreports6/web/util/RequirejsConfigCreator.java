@@ -40,7 +40,7 @@ import net.sf.jasperreports6.engine.JasperReportsContext;
  */
 public class RequirejsConfigCreator
 {
-	private static final String REQUIREJS_CONFIG_TEMPLATE = "net/sf/jasperreports/web/servlets/resources/templates/RequirejsConfigTemplate.vm";
+	private static final String REQUIREJS_CONFIG_TEMPLATE = "net/sf/jasperreports6/web/servlets/resources/templates/RequirejsConfigTemplate.vm";
 	
 	public static RequirejsConfigCreator getInstance(WebRequestContext context)
 	{

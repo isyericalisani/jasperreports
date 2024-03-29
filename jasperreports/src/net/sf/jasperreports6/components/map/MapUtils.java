@@ -34,7 +34,7 @@ import net.sf.jasperreports6.util.JacksonUtil;
  * @author Narcis Marcu (narcism@users.sourceforge.net)
  */
 public class MapUtils {
-    public static final String MAP_API_SCRIPT = "net/sf/jasperreports/components/map/resources/scripts/jasperreportsMapApi.js";
+    public static final String MAP_API_SCRIPT = "net/sf/jasperreports6/components/map/resources/scripts/jasperreportsMapApi.js";
 
     public static void prepareContextForVelocityTemplate(
             Map<String, Object> velocityContext,

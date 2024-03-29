@@ -111,7 +111,7 @@ public class HeaderToolbarElementJsonHandler implements GenericElementJsonHandle
 {
 	private static final Log log = LogFactory.getLog(HeaderToolbarElementJsonHandler.class);
 	
-	private static final String HEADER_TOOLBAR_ELEMENT_JSON_TEMPLATE = "net/sf/jasperreports/components/headertoolbar/json/resources/HeaderToolbarElementJsonTemplate.vm";
+	private static final String HEADER_TOOLBAR_ELEMENT_JSON_TEMPLATE = "net/sf/jasperreports6/components/headertoolbar/json/resources/HeaderToolbarElementJsonTemplate.vm";
 	private static final String PARAM_GENERATED_TEMPLATE_PREFIX = "net.sf.jasperreports6.headertoolbar.";
 
 	private static final List<String> datePatterns = new ArrayList<>(); 

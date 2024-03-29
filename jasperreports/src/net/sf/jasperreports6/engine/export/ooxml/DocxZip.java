@@ -71,7 +71,7 @@ public class DocxZip extends FileBufferedZip
 
 		coreEntry = createEntry("docProps/core.xml");
 
-		addEntry("_rels/.rels", "net/sf/jasperreports/engine/export/ooxml/docx/_rels/xml.rels");
+		addEntry("_rels/.rels", "net/sf/jasperreports6/engine/export/ooxml/docx/_rels/xml.rels");
 	}
 	
 	/**

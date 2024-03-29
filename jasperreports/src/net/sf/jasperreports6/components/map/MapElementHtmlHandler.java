@@ -43,7 +43,7 @@ public class MapElementHtmlHandler implements GenericElementHtmlHandler
 {
 	private static final MapElementHtmlHandler INSTANCE = new MapElementHtmlHandler();
 	
-	private static final String MAP_ELEMENT_HTML_TEMPLATE = "net/sf/jasperreports/components/map/resources/templates/MapElementHtmlTemplate.vm";
+	private static final String MAP_ELEMENT_HTML_TEMPLATE = "net/sf/jasperreports6/components/map/resources/templates/MapElementHtmlTemplate.vm";
 	
 	private static final String FIRST_ATTEMPT_PARAM = "exporter_first_attempt";
 

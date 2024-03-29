@@ -55,7 +55,7 @@ import java.util.Map;
 public class ChromeMapElementImageProvider extends AbstractMapElementImageProvider {
 
     private static final Log log = LogFactory.getLog(ChromeMapElementImageProvider.class);
-    private static final String PAGE_TEMPLATE_RESOURCE = "net/sf/jasperreports/components/map/resources/templates/ChromeMapPage.vm";
+    private static final String PAGE_TEMPLATE_RESOURCE = "net/sf/jasperreports6/components/map/resources/templates/ChromeMapPage.vm";
 
     private Boolean isEnabled = null;
 

@@ -38,7 +38,7 @@ public class MapElementJsonHandler implements GenericElementJsonHandler
 {
 	private static final MapElementJsonHandler INSTANCE = new MapElementJsonHandler();
 
-	private static final String MAP_ELEMENT_JSON_TEMPLATE = "net/sf/jasperreports/components/map/resources/templates/MapElementJsonTemplate.vm";
+	private static final String MAP_ELEMENT_JSON_TEMPLATE = "net/sf/jasperreports6/components/map/resources/templates/MapElementJsonTemplate.vm";
 
 	public static MapElementJsonHandler getInstance()
 	{

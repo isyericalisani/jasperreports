@@ -81,7 +81,7 @@ public abstract class JRSaveContributor extends FileFilter
 
 		if (resBundle == null)
 		{
-			this.resourceBundle = ResourceBundle.getBundle("net/sf/jasperreports/view/viewer", this.locale);
+			this.resourceBundle = ResourceBundle.getBundle("net/sf/jasperreports6/view/viewer", this.locale);
 		}
 		else
 		{

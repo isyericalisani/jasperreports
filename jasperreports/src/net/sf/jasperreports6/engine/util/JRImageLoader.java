@@ -65,12 +65,12 @@ public final class JRImageLoader
 			)
 	public static final String PROPERTY_IMAGE_ENCODER = JRPropertiesUtil.PROPERTY_PREFIX + "image.encoder";
 
-	public static final String PIXEL_IMAGE_RESOURCE = "net/sf/jasperreports/engine/images/white-transparent-pixel.png";
-	public static final String NO_IMAGE_RESOURCE = "net/sf/jasperreports/engine/images/image-16.png";
-	public static final String SUBREPORT_IMAGE_RESOURCE = "net/sf/jasperreports/engine/images/subreport-16.png";
-	public static final String CHART_IMAGE_RESOURCE = "net/sf/jasperreports/engine/images/chart-16.png";
-	public static final String CROSSTAB_IMAGE_RESOURCE = "net/sf/jasperreports/engine/images/crosstab-16.png";
-	public static final String COMPONENT_IMAGE_RESOURCE = "net/sf/jasperreports/engine/images/component-16.png";
+	public static final String PIXEL_IMAGE_RESOURCE = "net/sf/jasperreports6/engine/images/white-transparent-pixel.png";
+	public static final String NO_IMAGE_RESOURCE = "net/sf/jasperreports6/engine/images/image-16.png";
+	public static final String SUBREPORT_IMAGE_RESOURCE = "net/sf/jasperreports6/engine/images/subreport-16.png";
+	public static final String CHART_IMAGE_RESOURCE = "net/sf/jasperreports6/engine/images/chart-16.png";
+	public static final String CROSSTAB_IMAGE_RESOURCE = "net/sf/jasperreports6/engine/images/crosstab-16.png";
+	public static final String COMPONENT_IMAGE_RESOURCE = "net/sf/jasperreports6/engine/images/component-16.png";
 
 	/**
 	 *

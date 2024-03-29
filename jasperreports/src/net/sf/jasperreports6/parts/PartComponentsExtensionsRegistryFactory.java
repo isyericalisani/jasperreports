@@ -55,7 +55,7 @@ public class PartComponentsExtensionsRegistryFactory implements
 	public static final String XSD_LOCATION = 
 		"http://jasperreports.sourceforge.net/xsd/parts.xsd";
 	public static final String XSD_RESOURCE = 
-		"net/sf/jasperreports/parts/parts.xsd";
+		"net/sf/jasperreports6/parts/parts.xsd";
 	
 	public static final String SUBREPORT_PART_COMPONENT_NAME = "subreportPart";
 	

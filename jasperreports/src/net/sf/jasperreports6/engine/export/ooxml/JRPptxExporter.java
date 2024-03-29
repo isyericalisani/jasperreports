@@ -677,7 +677,7 @@ public class JRPptxExporter extends JRAbstractExporter<PptxReportConfiguration, 
 		ctHelper.exportSlide(slideIndex + 1);
 		presentationRelsHelper.exportSlide(slideIndex + 1);
 
-//		pptxZip.addEntry("ppt/slides/_rels/slide" + (slideIndex + 1) + ".xml.rels", "net/sf/jasperreports/engine/export/ooxml/pptx/ppt/slides/_rels/slide1.xml.rels");
+//		pptxZip.addEntry("ppt/slides/_rels/slide" + (slideIndex + 1) + ".xml.rels", "net/sf/jasperreports6/engine/export/ooxml/pptx/ppt/slides/_rels/slide1.xml.rels");
 		
 		ExportZipEntry slideRelsEntry = pptxZip.addSlideRels(slideIndex + 1);
 		Writer slideRelsWriter = slideRelsEntry.getWriter();

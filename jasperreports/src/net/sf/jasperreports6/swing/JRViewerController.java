@@ -108,7 +108,7 @@ public class JRViewerController
 
 		if (resBundle == null)
 		{
-			this.resourceBundle = ResourceBundle.getBundle("net/sf/jasperreports/view/viewer", getLocale());
+			this.resourceBundle = ResourceBundle.getBundle("net/sf/jasperreports6/view/viewer", getLocale());
 		}
 		else
 		{

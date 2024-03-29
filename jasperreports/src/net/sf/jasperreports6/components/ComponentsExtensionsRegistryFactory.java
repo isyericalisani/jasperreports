@@ -82,7 +82,7 @@ public class ComponentsExtensionsRegistryFactory implements
 	public static final String XSD_LOCATION = 
 		"http://jasperreports.sourceforge.net/xsd/components.xsd";
 	public static final String XSD_RESOURCE = 
-		"net/sf/jasperreports/components/components.xsd";
+		"net/sf/jasperreports6/components/components.xsd";
 	
 	public static final String LIST_COMPONENT_NAME = "list";
 	public static final String TABLE_COMPONENT_NAME = "table";

@@ -877,7 +877,7 @@ public class JRViewerPanel extends JPanel implements JRHyperlinkListener, JRView
 				pageError = true;
 
 				image = getPageErrorImage();
-				JOptionPane.showMessageDialog(this, java.util.ResourceBundle.getBundle("net/sf/jasperreports/view/viewer").getString("error.displaying"));
+				JOptionPane.showMessageDialog(this, java.util.ResourceBundle.getBundle("net/sf/jasperreports6/view/viewer").getString("error.displaying"));
 			}
 		}
 		ImageIcon imageIcon = new ImageIcon(image);
