@@ -60,7 +60,7 @@ public abstract class AbstractAction implements Action, Serializable {
 	
 	private static final long serialVersionUID = JRConstants.SERIAL_VERSION_UID;
 	
-	public static final String PARAM_COMMAND_STACK = "net.sf.jasperreports6.command.stack";
+	public static final String PARAM_COMMAND_STACK = "net.sf.jasperreports.command.stack";
 	public static final String ERR_CONCAT_STRING = "<#_#>";
 	
 	private JasperReportsContext jasperReportsContext;
@@ -72,7 +72,7 @@ public abstract class AbstractAction implements Action, Serializable {
 	}
 
 	public String getMessagesBundle() {
-		return "net.sf.jasperreports6.web.actions.messages";
+		return "net.sf.jasperreports.web.actions.messages";
 	}
 	
 	public void init(JasperReportsContext jasperReportsContext, ReportContext reportContext)//, String reportUri) 

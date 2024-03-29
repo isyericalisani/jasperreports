@@ -65,7 +65,7 @@ public class JasperDesignCache implements Serializable
 	/**
 	 * 
 	 */
-	private static final String PARAMETER_JASPER_DESIGN_CACHE = "net.sf.jasperreports6.parameter.jasperdesign.cache";
+	private static final String PARAMETER_JASPER_DESIGN_CACHE = "net.sf.jasperreports.parameter.jasperdesign.cache";
 
 	/**
 	 * 

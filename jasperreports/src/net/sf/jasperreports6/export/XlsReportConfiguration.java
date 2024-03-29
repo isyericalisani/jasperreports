@@ -394,7 +394,7 @@ public interface XlsReportConfiguration extends ReportExportConfiguration
 	 * @see JRPropertiesUtil
 	 */
 	@Property(
-			name = "net.sf.jasperreports6.export.xls.sheet.names.{arbitrary_name}",
+			name = "net.sf.jasperreports.export.xls.sheet.names.{arbitrary_name}",
 			category = PropertyConstants.CATEGORY_EXPORT,
 			scopes = {PropertyScope.REPORT},
 			sinceVersion = PropertyConstants.VERSION_3_5_2
@@ -409,7 +409,7 @@ public interface XlsReportConfiguration extends ReportExportConfiguration
 	 * If some properties are defined in the report, they will override the context properties.
 	 */
 	@Property(
-			name = "net.sf.jasperreports6.export.xls.pattern.{arbitrary_pattern}",
+			name = "net.sf.jasperreports.export.xls.pattern.{arbitrary_pattern}",
 			category = PropertyConstants.CATEGORY_EXPORT,
 			scopes = {PropertyScope.CONTEXT, PropertyScope.REPORT},
 			sinceVersion = PropertyConstants.VERSION_6_5_0
@@ -1002,21 +1002,21 @@ public interface XlsReportConfiguration extends ReportExportConfiguration
 	 * <p/>
 	 * Examples:
 	 * <ul>
-	 * <li>{@code <property name="net.sf.jasperreports6.export.xls.defined.names.test_sum" value="SUM(Sheet_1!$A$10:$C$20)|SecondSheet"/>}</li>
+	 * <li>{@code <property name="net.sf.jasperreports.export.xls.defined.names.test_sum" value="SUM(Sheet_1!$A$10:$C$20)|SecondSheet"/>}</li>
 	 * </ul>
 	 * <p/>
 	 * This name, identified as {@code "test_sum"}, is visible only in a sheet named {@code "SecondSheet"} and is associated 
 	 * with a formula that calculates a sum over the cell range {@code [$A$10:$C$20]} belonging to a sheet named {@code "Sheet_1"}.
 	 * <ul>
-	 * <li>{@code <property name="net.sf.jasperreports6.export.xls.defined.names.test_range" value="'Sheet 1'!$A$10:$C$20"/>}</li>
+	 * <li>{@code <property name="net.sf.jasperreports.export.xls.defined.names.test_range" value="'Sheet 1'!$A$10:$C$20"/>}</li>
 	 * </ul>
 	 * <p/>
 	 * This name, identified as {@code "test_range"}, is visible in the entire workbook and is associated 
 	 * with the cell range {@code [$A$10:$C$20]} in the sheet named {@code "Sheet 1"}.
 	 * <p/>
 	 * <ul>
-	 * <li>{@code <property name="net.sf.jasperreports6.export.xls.defined.names.test_sum_1" value="SUM(Sheet_1!$A$10:$C$20)|Sheet_1"/>}</li>
-	 * <li>{@code <property name="net.sf.jasperreports6.export.xls.defined.names.test_sum_all" value="Sheet_1!test_sum_1"/>}</li>
+	 * <li>{@code <property name="net.sf.jasperreports.export.xls.defined.names.test_sum_1" value="SUM(Sheet_1!$A$10:$C$20)|Sheet_1"/>}</li>
+	 * <li>{@code <property name="net.sf.jasperreports.export.xls.defined.names.test_sum_all" value="Sheet_1!test_sum_1"/>}</li>
 	 * </ul>
 	 * <p/>
 	 * In this case the name {@code test_sum_1} is visible only in the sheet named {@code Sheet_1}. 
@@ -1031,7 +1031,7 @@ public interface XlsReportConfiguration extends ReportExportConfiguration
 	 * @see <a href="https://support.office.com/en-us/article/Define-and-use-names-in-formulas-4d0f13ac-53b7-422e-afd2-abd7ff379c64#bmsyntax_rules_for_names">Rules for Excel defined names</a>
 	 */
 	@Property(
-			name = "net.sf.jasperreports6.export.xls.defined.names.{arbitrary_name}",
+			name = "net.sf.jasperreports.export.xls.defined.names.{arbitrary_name}",
 			category = PropertyConstants.CATEGORY_EXPORT,
 			scopes = {PropertyScope.REPORT, PropertyScope.ELEMENT},
 			sinceVersion = PropertyConstants.VERSION_6_4_3

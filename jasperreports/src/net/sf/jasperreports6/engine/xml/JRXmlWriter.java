@@ -235,7 +235,7 @@ public class JRXmlWriter extends JRXmlBaseWriter
 	public static final String EXCEPTION_MESSAGE_KEY_UNSUPPORTED_CHART_TYPE = "xml.writer.unsupported.chart.type";
 	
 	@Property(
-			name = "net.sf.jasperreports6.jrxml.writer.exclude.properties.{suffix}",
+			name = "net.sf.jasperreports.jrxml.writer.exclude.properties.{suffix}",
 			category = PropertyConstants.CATEGORY_OTHER,
 			scopes = {PropertyScope.CONTEXT},
 			sinceVersion = PropertyConstants.VERSION_6_1_1
@@ -244,7 +244,7 @@ public class JRXmlWriter extends JRXmlBaseWriter
 			JRPropertiesUtil.PROPERTY_PREFIX + "jrxml.writer.exclude.properties.";
 
 	@Property(
-			name = "net.sf.jasperreports6.jrxml.writer.exclude.uuids",
+			name = "net.sf.jasperreports.jrxml.writer.exclude.uuids",
 			category = PropertyConstants.CATEGORY_OTHER,
 			scopes = {PropertyScope.CONTEXT},
 			sinceVersion = PropertyConstants.VERSION_6_5_1

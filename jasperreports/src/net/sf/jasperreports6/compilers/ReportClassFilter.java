@@ -59,7 +59,7 @@ public class ReportClassFilter implements ClassLoaderFilter
 			category = PropertyConstants.CATEGORY_FILL,
 			scopes = {PropertyScope.CONTEXT},
 			sinceVersion = PropertyConstants.VERSION_6_13_0,
-			name = "net.sf.jasperreports6.report.class.whitelist.{arbitrary_name}"
+			name = "net.sf.jasperreports.report.class.whitelist.{arbitrary_name}"
 			)
 	public static final String PROPERTY_PREFIX_CLASS_WHITELIST = 
 			JRPropertiesUtil.PROPERTY_PREFIX + "report.class.whitelist.";

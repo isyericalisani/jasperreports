@@ -66,7 +66,7 @@ public class SortElementJsonHandler implements GenericElementJsonHandler
 	private static final Log log = LogFactory.getLog(SortElementJsonHandler.class);
 	
 	private static final String SORT_ELEMENT_HTML_TEMPLATE = "net/sf/jasperreports/components/sort/resources/SortElementJsonTemplate.vm";
-	private static final String PARAM_GENERATED_TEMPLATE = "net.sf.jasperreports6.sort";
+	private static final String PARAM_GENERATED_TEMPLATE = "net.sf.jasperreports.sort";
 
 	private static final String SORT_DATASET = "exporter_first_attempt";
 

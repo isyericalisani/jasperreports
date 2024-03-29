@@ -37,7 +37,7 @@ import net.sf.jasperreports6.properties.PropertyConstants;
 public interface DataCacheHandler
 {
 	
-	String PARAMETER_DATA_CACHE_HANDLER = "net.sf.jasperreports6.data.cache.handler";
+	String PARAMETER_DATA_CACHE_HANDLER = "net.sf.jasperreports.data.cache.handler";
 	
 	@Property(
 			category = PropertyConstants.CATEGORY_DATA_CACHE,

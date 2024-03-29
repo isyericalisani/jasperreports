@@ -57,7 +57,7 @@ public interface QueryExecuterFactory extends JRQueryExecuterFactory
 	 * to get the query executer factory name.
 	 */
 	@Property(
-			name = "net.sf.jasperreports6.query.executer.factory.{language}",
+			name = "net.sf.jasperreports.query.executer.factory.{language}",
 			category = PropertyConstants.CATEGORY_DATA_SOURCE,
 			scopes = {PropertyScope.CONTEXT},
 			sinceVersion = PropertyConstants.VERSION_1_2_0

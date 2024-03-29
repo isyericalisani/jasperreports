@@ -50,7 +50,7 @@
 * file: 
 * <pre>
 * &lt;taskdef name="jrc" 
-* classname="net.sf.jasperreports6.ant.JRAntCompileTask"&gt; 
+* classname="net.sf.jasperreports.ant.JRAntCompileTask"&gt; 
 *   &lt;classpath&gt; 
 *     &lt;fileset dir="./lib"&gt; 
 *       &lt;include name="** /*.jar"/&gt; 
@@ -90,7 +90,7 @@
 * <code>build.xml</code> file should be as follows:
 * <pre> 
 * &lt;taskdef name="jrdc" 
-* classname="net.sf.jasperreports6.ant.JRAntDecompileTask"&gt; 
+* classname="net.sf.jasperreports.ant.JRAntDecompileTask"&gt; 
 *   &lt;classpath refid="classpath"/&gt; 
 * &lt;/taskdef&gt;
 * </pre>
@@ -120,7 +120,7 @@
 * following definition in a <code>build.xml</code> file: 
 * <pre>
 * &lt;taskdef name="jru" 
-* classname="net.sf.jasperreports6.ant.JRAntUpdateTask"&gt; 
+* classname="net.sf.jasperreports.ant.JRAntUpdateTask"&gt; 
 *   &lt;classpath refid="classpath"/&gt; 
 * &lt;/taskdef&gt;
 * </pre> 

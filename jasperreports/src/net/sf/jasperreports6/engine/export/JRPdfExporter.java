@@ -373,7 +373,7 @@ public class JRPdfExporter extends JRAbstractExporter<PdfReportConfiguration, Pd
 	 * Prefix of properties that specify font files for the PDF exporter.
 	 */
 	@Property(
-		name = "net.sf.jasperreports6.export.pdf.font.{arbitrary_name}",
+		name = "net.sf.jasperreports.export.pdf.font.{arbitrary_name}",
 		category = PropertyConstants.CATEGORY_EXPORT,
 		scopes = {PropertyScope.GLOBAL},
 		sinceVersion = PropertyConstants.VERSION_1_0_0
@@ -384,7 +384,7 @@ public class JRPdfExporter extends JRAbstractExporter<PdfReportConfiguration, Pd
 	 * Prefix of properties that specify font directories for the PDF exporter.
 	 */
 	@Property(
-		name = "net.sf.jasperreports6.export.pdf.fontdir.{arbitrary_name}",
+		name = "net.sf.jasperreports.export.pdf.fontdir.{arbitrary_name}",
 		category = PropertyConstants.CATEGORY_EXPORT,
 		scopes = {PropertyScope.GLOBAL},
 		sinceVersion = PropertyConstants.VERSION_1_0_0
@@ -973,7 +973,7 @@ public class JRPdfExporter extends JRAbstractExporter<PdfReportConfiguration, Pd
 			if( creator == null )
 			{
 				@SuppressWarnings("deprecation") //this can be replaced only after abandoning Java 8 support 
-				String depCreator = "JasperReports Library version " + Package.getPackage("net.sf.jasperreports6.engine").getImplementationVersion();
+				String depCreator = "JasperReports Library version " + Package.getPackage("net.sf.jasperreports.engine").getImplementationVersion();
 				creator = depCreator;
 			}
 			document.addCreator(creator);

@@ -95,7 +95,7 @@ public interface DocxExporterConfiguration extends ExporterConfiguration
 	 * This property serves as default value for the {@link #isEmbedFonts()} export configuration setting.
 	 */
 	@Property(
-			name = "net.sf.jasperreports6.export.docx.embed.fonts",
+			name = "net.sf.jasperreports.export.docx.embed.fonts",
 			defaultValue = PropertyConstants.BOOLEAN_FALSE,
 			category = PropertyConstants.CATEGORY_EXPORT,
 			scopes = {PropertyScope.CONTEXT, PropertyScope.REPORT},

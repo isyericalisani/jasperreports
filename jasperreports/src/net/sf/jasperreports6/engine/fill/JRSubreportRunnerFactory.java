@@ -42,7 +42,7 @@ public interface JRSubreportRunnerFactory
 	 */
 	@Property(
 			category = PropertyConstants.CATEGORY_FILL,
-			defaultValue = "net.sf.jasperreports6.engine.fill.JRThreadSubreportRunnerFactory",
+			defaultValue = "net.sf.jasperreports.engine.fill.JRThreadSubreportRunnerFactory",
 			scopes = {PropertyScope.CONTEXT},
 			sinceVersion = PropertyConstants.VERSION_1_2_2
 			)

@@ -42,7 +42,7 @@ import net.sf.jasperreports6.engine.JRException;
  * The global chart theme can be overridden at report level using the following report 
  * property in the report template: 
  * <br/><br/>
- * <code>&lt;property name="net.sf.jasperreports6.chart.theme" value="&lt;theme_name&gt;"/&gt;</code> 
+ * <code>&lt;property name="net.sf.jasperreports.chart.theme" value="&lt;theme_name&gt;"/&gt;</code> 
  * <br/><br/>
  * If needed, at chart element level, the chart theme is specified using the <code>theme</code> attribute. 
  * 

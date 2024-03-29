@@ -366,8 +366,8 @@ public class TableReport implements JRReport
 	/**
 	 *
 	 */
-	public static final String TABLE_HEADER_LABEL_MATCHER_EXPORT_KEY = "net.sf.jasperreports6.components.table.header.label";
-	public static final String TABLE_HEADER_ICON_LABEL_MATCHER_EXPORT_KEY = "net.sf.jasperreports6.components.table.header.icon.label";
+	public static final String TABLE_HEADER_LABEL_MATCHER_EXPORT_KEY = "net.sf.jasperreports.components.table.header.label";
+	public static final String TABLE_HEADER_ICON_LABEL_MATCHER_EXPORT_KEY = "net.sf.jasperreports.components.table.header.icon.label";
 
 	private final FillContext fillContext;
 	private final TableComponent table;

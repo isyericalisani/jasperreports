@@ -34,7 +34,7 @@ public interface PrintPart extends JRPropertiesHolder
 {
 	
 	@Property(
-			name = "net.sf.jasperreports6.part.print.transfer.{arbitrary_name}",
+			name = "net.sf.jasperreports.part.print.transfer.{arbitrary_name}",
 			category = PropertyConstants.CATEGORY_FILL,
 			scopes = {PropertyScope.CONTEXT},
 			sinceVersion = PropertyConstants.VERSION_6_20_2

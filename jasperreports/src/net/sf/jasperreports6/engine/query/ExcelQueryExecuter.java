@@ -73,8 +73,8 @@ public class ExcelQueryExecuter extends AbstractXlsQueryExecuter
 		)
 	public static final String PROPERTY_XLSX_DATA_SOURCE_FACTORY = JRPropertiesUtil.PROPERTY_PREFIX + "xlsx.data.source.factory";
 
-	public static final String EXCEL_DATA_SOURCE_CLASS = "net.sf.jasperreports6.engine.data.ExcelDataSource";
-	public static final String FASTEXCEL_DATA_SOURCE_CLASS = "net.sf.jasperreports6.fastexcel.FastExcelDataSource";
+	public static final String EXCEL_DATA_SOURCE_CLASS = "net.sf.jasperreports.engine.data.ExcelDataSource";
+	public static final String FASTEXCEL_DATA_SOURCE_CLASS = "net.sf.jasperreports.fastexcel.FastExcelDataSource";
 	private static final String POI_XLS_WORKBOOK_CLASS = "org.apache.poi.hssf.usermodel.HSSFWorkbook";
 	private static final String POI_XLSX_WORKBOOK_CLASS = "org.apache.poi.xssf.usermodel.XSSFWorkbook";
 	private static final String FASTEXCEL_WORKBOOK_CLASS = "org.dhatim.fastexcel.reader.ReadableWorkbook";

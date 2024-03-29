@@ -123,7 +123,7 @@ public interface JRCompiler
 	 * report designs that rely on the expression language specified as property suffix.
 	 */
 	@Property(
-			name = "net.sf.jasperreports6.compiler.{language}",
+			name = "net.sf.jasperreports.compiler.{language}",
 			category = PropertyConstants.CATEGORY_COMPILE,
 			scopes = {PropertyScope.CONTEXT},
 			sinceVersion = PropertyConstants.VERSION_2_0_1

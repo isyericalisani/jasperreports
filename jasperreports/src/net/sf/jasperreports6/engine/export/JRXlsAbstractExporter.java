@@ -115,7 +115,7 @@ import net.sf.jasperreports6.export.XlsReportConfiguration;
  * {@link net.sf.jasperreports6.export.XlsReportConfiguration#PROPERTY_SHEET_NAMES_PREFIX net.sf.jasperreports.export.xls.sheet.names.&lt;arbitrary_name&gt;} property 
  * at report level. Add the following to the JRXML file:
  * <pre>
- * &lt;property name="net.sf.jasperreports6.export.xls.sheet.names.all" value="Sheet A/Sheet B/Sheet C" /&gt;
+ * &lt;property name="net.sf.jasperreports.export.xls.sheet.names.all" value="Sheet A/Sheet B/Sheet C" /&gt;
  * </pre>
  * Keep in mind the naming order is important, sheets will be named in the same order the names are 
  * provided in this property. 

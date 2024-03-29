@@ -46,7 +46,7 @@ public class ElementPropertyExporterFilterFactory implements ExporterFilterFacto
 	 * <code>net.sf.jasperreports.export.xls.exclude</code>. 
 	 */
 	@Property(
-			name = "net.sf.jasperreports6.export.{format}.exclude",
+			name = "net.sf.jasperreports.export.{format}.exclude",
 			category = PropertyConstants.CATEGORY_EXPORT,
 			scopes = {PropertyScope.ELEMENT},
 			valueType = Boolean.class,
@@ -58,7 +58,7 @@ public class ElementPropertyExporterFilterFactory implements ExporterFilterFacto
 	 * Default element exclusion property.
 	 */
 	@Property(
-			name = "net.sf.jasperreports6.export.default.exclude",
+			name = "net.sf.jasperreports.export.default.exclude",
 			category = PropertyConstants.CATEGORY_EXPORT,
 			scopes = {PropertyScope.ELEMENT},
 			valueType = Boolean.class,

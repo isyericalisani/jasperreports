@@ -65,15 +65,15 @@ import net.sf.jasperreports6.properties.PropertyConstants;
  * Removing page headers and page footers from the document when exporting to XLS can
  * be achieved by putting these custom properties in the report template:
  * <pre>
- *   &lt;property name="net.sf.jasperreports6.export.xls.exclude.origin.band.1" value="pageHeader"/&gt;
- *   &lt;property name="net.sf.jasperreports6.export.xls.exclude.origin.band.2" value="pageFooter"/&gt;
+ *   &lt;property name="net.sf.jasperreports.export.xls.exclude.origin.band.1" value="pageHeader"/&gt;
+ *   &lt;property name="net.sf.jasperreports.export.xls.exclude.origin.band.2" value="pageFooter"/&gt;
  * </pre>
  * If you want to remove page headers and page footers, but keep the first page header in
  * place (useful when all pages are exported to the same sheet, in a flow layout) the
  * following properties have to be used in the report template:
  * <pre>
- *   &lt;property name="net.sf.jasperreports6.export.xls.exclude.origin.keep.first.band.1" value="pageHeader"/&gt;
- *   &lt;property name="net.sf.jasperreports6.export.xls.exclude.origin.band.2" value="pageFooter"/&gt;
+ *   &lt;property name="net.sf.jasperreports.export.xls.exclude.origin.keep.first.band.1" value="pageHeader"/&gt;
+ *   &lt;property name="net.sf.jasperreports.export.xls.exclude.origin.band.2" value="pageFooter"/&gt;
  * </pre>
  * Note that there is no property prefix available to keep the last occurrence of a band. If
  * you would want to keep the last page footer, then the best solution is to actually use the
@@ -83,11 +83,11 @@ import net.sf.jasperreports6.properties.PropertyConstants;
  * group called <code>ProductGroup</code>, that comes from a subreport called <code>ProductReport</code>
  * these custom properties are needed:
  * <pre>
- *   &lt;property name="net.sf.jasperreports6.export.xls.exclude.origin.band.1" value="pageHeader"/&gt;
- *   &lt;property name="net.sf.jasperreports6.export.xls.exclude.origin.band.2" value="pageFooter"/&gt;
- *   &lt;property name="net.sf.jasperreports6.export.xls.exclude.origin.band.3" value="groupHeader"/&gt;
- *   &lt;property name="net.sf.jasperreports6.export.xls.exclude.origin.group.3" value="ProductGroup"/&gt;
- *   &lt;property name="net.sf.jasperreports6.export.xls.exclude.origin.report.3" value="ProductReport"/&gt;
+ *   &lt;property name="net.sf.jasperreports.export.xls.exclude.origin.band.1" value="pageHeader"/&gt;
+ *   &lt;property name="net.sf.jasperreports.export.xls.exclude.origin.band.2" value="pageFooter"/&gt;
+ *   &lt;property name="net.sf.jasperreports.export.xls.exclude.origin.band.3" value="groupHeader"/&gt;
+ *   &lt;property name="net.sf.jasperreports.export.xls.exclude.origin.group.3" value="ProductGroup"/&gt;
+ *   &lt;property name="net.sf.jasperreports.export.xls.exclude.origin.report.3" value="ProductReport"/&gt;
  * </pre>
  * Note that the number at the end of the properties names is just an arbitrary suffix. The
  * only thing that counts is that the suffix be the same for properties referring to the same
@@ -97,9 +97,9 @@ import net.sf.jasperreports6.properties.PropertyConstants;
  * from other filters. The following example will exclude the same group header while
  * keeping its first occurrence:
  * <pre>
- *   &lt;property name="net.sf.jasperreports6.export.xls.exclude.origin.keep.first.band.myGroupFilter" value="groupHeader"/&gt;
- *   &lt;property name="net.sf.jasperreports6.export.xls.exclude.origin.keep.first.group.myGroupFilter" value="ProductGroup"/&gt;
- *   &lt;property name="net.sf.jasperreports6.export.xls.exclude.origin.keep.first.report.myGroupFilter" value="ProductReport"/&gt;
+ *   &lt;property name="net.sf.jasperreports.export.xls.exclude.origin.keep.first.band.myGroupFilter" value="groupHeader"/&gt;
+ *   &lt;property name="net.sf.jasperreports.export.xls.exclude.origin.keep.first.group.myGroupFilter" value="ProductGroup"/&gt;
+ *   &lt;property name="net.sf.jasperreports.export.xls.exclude.origin.keep.first.report.myGroupFilter" value="ProductReport"/&gt;
  * </pre>
  * The <code>xls</code> token inside the properties prefixes refer to the particular export format that is
  * targeted and the general syntax of the origin exporter filter properties is:
@@ -125,7 +125,7 @@ public class JROriginExporterFilter implements ResetableExporterFilter
 	 * The prefix of origin exclusion properties.
 	 */
 	@Property(
-			name = "net.sf.jasperreports6.export.{format}.exclude.origin.{suffix}.{arbitrary_name}",
+			name = "net.sf.jasperreports.export.{format}.exclude.origin.{suffix}.{arbitrary_name}",
 			category = PropertyConstants.CATEGORY_EXPORT,
 			scopes = {PropertyScope.CONTEXT, PropertyScope.REPORT},
 			sinceVersion = PropertyConstants.VERSION_2_0_3
@@ -133,7 +133,7 @@ public class JROriginExporterFilter implements ResetableExporterFilter
 	public static final String PROPERTY_EXCLUDE_ORIGIN_PREFIX = "exclude.origin.";
 	
 	@Property(
-			name = "net.sf.jasperreports6.export.{format}.exclude.origin.keep.first.{suffix}.{arbitrary_name}",
+			name = "net.sf.jasperreports.export.{format}.exclude.origin.keep.first.{suffix}.{arbitrary_name}",
 			category = PropertyConstants.CATEGORY_EXPORT,
 			scopes = {PropertyScope.CONTEXT, PropertyScope.REPORT},
 			sinceVersion = PropertyConstants.VERSION_2_0_3

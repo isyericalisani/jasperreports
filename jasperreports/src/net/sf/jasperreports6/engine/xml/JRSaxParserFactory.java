@@ -49,7 +49,7 @@ public interface JRSaxParserFactory
 	 */
 	@Property(
 			category = PropertyConstants.CATEGORY_COMPILE,
-			defaultValue = "net.sf.jasperreports6.engine.xml.JRReportSaxParserFactory",
+			defaultValue = "net.sf.jasperreports.engine.xml.JRReportSaxParserFactory",
 			scopes = {PropertyScope.CONTEXT},
 			sinceVersion = PropertyConstants.VERSION_3_1_0
 			)
@@ -65,7 +65,7 @@ public interface JRSaxParserFactory
 	 */
 	@Property(
 			category = PropertyConstants.CATEGORY_EXPORT,
-			defaultValue = "net.sf.jasperreports6.engine.xml.PrintSaxParserFactory",
+			defaultValue = "net.sf.jasperreports.engine.xml.PrintSaxParserFactory",
 			scopes = {PropertyScope.CONTEXT},
 			sinceVersion = PropertyConstants.VERSION_4_1_3
 			)
@@ -81,7 +81,7 @@ public interface JRSaxParserFactory
 	 */
 	@Property(
 			category = PropertyConstants.CATEGORY_COMPILE,
-			defaultValue = "net.sf.jasperreports6.engine.xml.TemplateSaxParserFactory",
+			defaultValue = "net.sf.jasperreports.engine.xml.TemplateSaxParserFactory",
 			scopes = {PropertyScope.CONTEXT},
 			sinceVersion = PropertyConstants.VERSION_6_3_0
 			)

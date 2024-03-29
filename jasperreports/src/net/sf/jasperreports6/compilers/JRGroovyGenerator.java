@@ -238,8 +238,8 @@ public class JRGroovyGenerator
 		sb.append(sourceTask.getCompileName());
 		sb.append(" extends ");
 		String baseClass = classFilter != null && classFilter.isFilteringEnabled() 
-				? "net.sf.jasperreports6.compilers.GroovySandboxEvaluator" 
-				: "net.sf.jasperreports6.compilers.GroovyEvaluator";
+				? "net.sf.jasperreports.compilers.GroovySandboxEvaluator" 
+				: "net.sf.jasperreports.compilers.GroovyEvaluator";
 		sb.append(baseClass);
 		sb.append("\n{\n"); 
 		sb.append("\n");

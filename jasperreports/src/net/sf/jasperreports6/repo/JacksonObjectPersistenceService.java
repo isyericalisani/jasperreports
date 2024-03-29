@@ -46,7 +46,7 @@ public abstract class JacksonObjectPersistenceService implements PersistenceServ
 		Method method = null;
 		try
 		{
-			Class castorUtilClass = JacksonObjectPersistenceService.class.getClassLoader().loadClass("net.sf.jasperreports6.util.CastorUtil");
+			Class castorUtilClass = JacksonObjectPersistenceService.class.getClassLoader().loadClass("net.sf.jasperreports.util.CastorUtil");
 			method = castorUtilClass.getMethod("read", JasperReportsContext.class, InputStream.class);
 		}
 		catch (ClassNotFoundException | NoSuchMethodException e)

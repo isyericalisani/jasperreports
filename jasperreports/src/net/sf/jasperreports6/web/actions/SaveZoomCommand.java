@@ -35,7 +35,7 @@ public class SaveZoomCommand implements Command {
 
 	private static final long serialVersionUID = JRConstants.SERIAL_VERSION_UID;
 	
-	public static final String PROPERTY_VIEWER_ZOOM = "net.sf.jasperreports6.viewer.zoom";
+	public static final String PROPERTY_VIEWER_ZOOM = "net.sf.jasperreports.viewer.zoom";
 
 	private String zoomValue;
 	private String oldZoomValue;

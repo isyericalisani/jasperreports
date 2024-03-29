@@ -57,8 +57,8 @@ public class JacksonUtil
 	/**
 	 * 
 	 */
-	private static final String OBJECT_MAPPER_CONTEXT_KEY = "net.sf.jasperreports6.jackson.object.mapper";
-	private static final String XML_MAPPER_CONTEXT_KEY = "net.sf.jasperreports6.jackson.xml.mapper";
+	private static final String OBJECT_MAPPER_CONTEXT_KEY = "net.sf.jasperreports.jackson.object.mapper";
+	private static final String XML_MAPPER_CONTEXT_KEY = "net.sf.jasperreports.jackson.xml.mapper";
 	
 	private JasperReportsContext jasperReportsContext;
 

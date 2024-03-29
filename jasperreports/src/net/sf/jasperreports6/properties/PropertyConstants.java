@@ -32,7 +32,7 @@ import net.sf.jasperreports6.engine.JRConstants;
 public interface PropertyConstants
 {
 	
-	String PREFIX_CATEGORY = "net.sf.jasperreports6.metadata.property.category:";
+	String PREFIX_CATEGORY = "net.sf.jasperreports.metadata.property.category:";
 	
 	String CATEGORY_DATA_SOURCE = PREFIX_CATEGORY + "data.source";
 	

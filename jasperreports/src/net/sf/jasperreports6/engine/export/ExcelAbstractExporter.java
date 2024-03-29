@@ -307,7 +307,7 @@ public abstract class ExcelAbstractExporter<RC extends XlsReportConfiguration, C
 	 * @see JRPropertiesUtil
 	 */
 	@Property(
-			name = "net.sf.jasperreports6.export.xls.row.outline.level.{arbitrary_level}",
+			name = "net.sf.jasperreports.export.xls.row.outline.level.{arbitrary_level}",
 			category = PropertyConstants.CATEGORY_EXPORT,
 			scopes = {PropertyScope.ELEMENT},
 			sinceVersion = PropertyConstants.VERSION_4_1_3

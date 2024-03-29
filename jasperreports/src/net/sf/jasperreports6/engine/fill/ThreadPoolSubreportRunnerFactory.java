@@ -39,7 +39,7 @@ public class ThreadPoolSubreportRunnerFactory implements JRSubreportRunnerFactor
 {
 	private static final Log log = LogFactory.getLog(ThreadPoolSubreportRunnerFactory.class);
 	
-	private static final String THREAD_POOL_KEY = "net.sf.jasperreports6.engine.fill.JRThreadSubreportRunner.ThreadPool";
+	private static final String THREAD_POOL_KEY = "net.sf.jasperreports.engine.fill.JRThreadSubreportRunner.ThreadPool";
 
 	@Override
 	public JRSubreportRunner createSubreportRunner(JRFillSubreport fillSubreport, JRBaseFiller subreportFiller)

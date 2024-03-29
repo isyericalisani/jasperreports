@@ -48,7 +48,7 @@ import net.sf.jasperreports6.properties.PropertyConstants;
 public class JRCsvQueryExecuterFactory extends AbstractQueryExecuterFactory implements Designated 
 {
 	
-	public static final String QUERY_EXECUTER_NAME = "net.sf.jasperreports6.query.executer:CSV";
+	public static final String QUERY_EXECUTER_NAME = "net.sf.jasperreports.query.executer:CSV";
 	
 	/**
 	 * Built-in parameter/property holding the value of the source for the CSV file. 
@@ -110,7 +110,7 @@ public class JRCsvQueryExecuterFactory extends AbstractQueryExecuterFactory impl
 	 * <code>net.sf.jasperreports.csv.column.names.{arbitrary_name}=value1[, value2, ...]</code>
 	 */
 	@Property(
-			name = "net.sf.jasperreports6.csv.column.names.{arbitrary_name}",
+			name = "net.sf.jasperreports.csv.column.names.{arbitrary_name}",
 			category = PropertyConstants.CATEGORY_DATA_SOURCE,
 			scopes = {PropertyScope.CONTEXT, PropertyScope.DATASET},
 			scopeQualifications = {JRCsvQueryExecuterFactory.QUERY_EXECUTER_NAME},

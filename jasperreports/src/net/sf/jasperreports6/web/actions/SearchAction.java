@@ -68,7 +68,7 @@ public class SearchAction extends AbstractAction {
 
 			try {
 				SpansInfo spansInfo = luceneUtil.getSpansInfo(jasperPrint, searchData.getSearchString());
-				reportContext.setParameterValue("net.sf.jasperreports6.search.term.highlighter", spansInfo);
+				reportContext.setParameterValue("net.sf.jasperreports.search.term.highlighter", spansInfo);
 
 				ObjectMapper mapper = new ObjectMapper();
 				ObjectNode result = mapper.createObjectNode();
@@ -87,7 +87,7 @@ public class SearchAction extends AbstractAction {
 						arrayNode.add(item);
 					}
 				}
-				reportContext.setParameterValue("net.sf.jasperreports6.web.actions.result.json", result);
+				reportContext.setParameterValue("net.sf.jasperreports.web.actions.result.json", result);
 
 			} catch (Exception e) {
 				throw new ActionException(e);

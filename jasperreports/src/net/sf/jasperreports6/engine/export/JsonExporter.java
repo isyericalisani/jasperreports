@@ -69,7 +69,7 @@ public class JsonExporter extends JRAbstractExporter<JsonReportConfiguration, Js
 {
 	private static final Log log = LogFactory.getLog(JsonExporter.class);
 	
-	public static final String REPORT_CONTEXT_PARAMETER_WEB_FONTS = "net.sf.jasperreports6.html.webfonts";
+	public static final String REPORT_CONTEXT_PARAMETER_WEB_FONTS = "net.sf.jasperreports.html.webfonts";
 
 	public static final String JSON_EXPORTER_KEY = JRPropertiesUtil.PROPERTY_PREFIX + "json";
 	
@@ -472,7 +472,7 @@ public class JsonExporter extends JRAbstractExporter<JsonReportConfiguration, Js
 	protected void exportHyperlinks() throws IOException
 	{
 		ReportContext reportContext = getReportContext();
-		String hyperlinksParameter = "net.sf.jasperreports6.html.hyperlinks";
+		String hyperlinksParameter = "net.sf.jasperreports.html.hyperlinks";
 		if (reportContext != null && reportContext.containsParameter(hyperlinksParameter)) {
 			List<HyperlinkData> contextHyperlinksData = (List<HyperlinkData>) reportContext.getParameterValue(hyperlinksParameter);
 			hyperlinksData.addAll(contextHyperlinksData);
@@ -514,7 +514,7 @@ public class JsonExporter extends JRAbstractExporter<JsonReportConfiguration, Js
 	protected void exportClickableElements() throws IOException
 	{
 		ReportContext reportContext = getReportContext();
-		String clickableElementsParameter = "net.sf.jasperreports6.html.clickable.elements";
+		String clickableElementsParameter = "net.sf.jasperreports.html.clickable.elements";
 		if (reportContext != null && reportContext.containsParameter(clickableElementsParameter))
 		{
 			Boolean useClickableElements = (Boolean) reportContext.getParameterValue(clickableElementsParameter);

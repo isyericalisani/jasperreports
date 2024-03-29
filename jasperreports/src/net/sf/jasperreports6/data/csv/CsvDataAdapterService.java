@@ -47,7 +47,7 @@ import net.sf.jasperreports6.engine.util.Designated;
 public class CsvDataAdapterService extends AbstractDataAdapterService implements Designated
 {
 	
-	public static final String SERVICE_DESIGNATION = "net.sf.jasperreports6.data.adapter:CSV";
+	public static final String SERVICE_DESIGNATION = "net.sf.jasperreports.data.adapter:CSV";
 	
 	private DataFileStream dataStream;
 	

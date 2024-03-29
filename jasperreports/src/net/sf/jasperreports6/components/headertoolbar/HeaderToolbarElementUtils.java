@@ -66,18 +66,18 @@ import net.sf.jasperreports6.util.JacksonUtil;
  */
 public class HeaderToolbarElementUtils 
 {
-	private static final String DEFAULT_PATTERNS_BUNDLE = "net.sf.jasperreports6.components.messages";
-	private static final String DEFAULT_DATE_PATTERN_KEY = "net.sf.jasperreports6.components.date.pattern";
-	private static final String DEFAULT_TIME_PATTERN_KEY = "net.sf.jasperreports6.components.time.pattern";
-	private static final String DEFAULT_NUMBER_PATTERN_KEY = "net.sf.jasperreports6.components.number.pattern";
+	private static final String DEFAULT_PATTERNS_BUNDLE = "net.sf.jasperreports.components.messages";
+	private static final String DEFAULT_DATE_PATTERN_KEY = "net.sf.jasperreports.components.date.pattern";
+	private static final String DEFAULT_TIME_PATTERN_KEY = "net.sf.jasperreports.components.time.pattern";
+	private static final String DEFAULT_NUMBER_PATTERN_KEY = "net.sf.jasperreports.components.number.pattern";
 	private static final String DATE_PATTERN_BUNDLE = DEFAULT_DATE_PATTERN_KEY + ".bundle";
 	private static final String DATE_PATTERN_KEY = DEFAULT_DATE_PATTERN_KEY + ".key";
 	private static final String TIME_PATTERN_BUNDLE = DEFAULT_TIME_PATTERN_KEY + ".bundle";
 	private static final String TIME_PATTERN_KEY = DEFAULT_TIME_PATTERN_KEY + ".key";
 	private static final String NUMBER_PATTERN_BUNDLE = DEFAULT_NUMBER_PATTERN_KEY + ".bundle";
 	private static final String NUMBER_PATTERN_KEY = DEFAULT_NUMBER_PATTERN_KEY + ".key";
-	private static final String DEFAULT_CALENDAR_DATE_PATTERN_KEY = "net.sf.jasperreports6.components.calendar.date.pattern";
-	private static final String DEFAULT_CALENDAR_DATE_TIME_PATTERN_KEY = "net.sf.jasperreports6.components.calendar.date.time.pattern";
+	private static final String DEFAULT_CALENDAR_DATE_PATTERN_KEY = "net.sf.jasperreports.components.calendar.date.pattern";
+	private static final String DEFAULT_CALENDAR_DATE_TIME_PATTERN_KEY = "net.sf.jasperreports.components.calendar.date.time.pattern";
 	private static final String CALENDAR_DATE_PATTERN_BUNDLE = DEFAULT_CALENDAR_DATE_PATTERN_KEY + ".bundle";
 	private static final String CALENDAR_DATE_PATTERN_KEY = DEFAULT_CALENDAR_DATE_PATTERN_KEY + ".key";
 	private static final String CALENDAR_DATE_TIME_PATTERN_KEY = DEFAULT_CALENDAR_DATE_TIME_PATTERN_KEY + ".key";

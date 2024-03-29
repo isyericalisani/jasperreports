@@ -38,7 +38,7 @@ public interface MarkupProcessorFactory
 	 * 
 	 */
 	@Property(
-			name = "net.sf.jasperreports6.markup.processor.factory.{markup}",
+			name = "net.sf.jasperreports.markup.processor.factory.{markup}",
 			category = PropertyConstants.CATEGORY_FILL,
 			scopes = {PropertyScope.CONTEXT},
 			sinceVersion = PropertyConstants.VERSION_2_0_5

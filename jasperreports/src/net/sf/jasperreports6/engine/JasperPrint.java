@@ -74,7 +74,7 @@ public class JasperPrint implements Serializable, JRPropertiesHolder, JRChangeEv
 	 * @see JRPropertiesUtil#transferProperties(JRPropertiesHolder, JRPropertiesHolder, String)
 	 */
 	@Property(
-			name = "net.sf.jasperreports6.print.transfer.{arbitrary_suffix}",
+			name = "net.sf.jasperreports.print.transfer.{arbitrary_suffix}",
 			category = PropertyConstants.CATEGORY_FILL,
 			scopes = {PropertyScope.CONTEXT},
 			sinceVersion = PropertyConstants.VERSION_4_6_0

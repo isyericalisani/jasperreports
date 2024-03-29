@@ -851,14 +851,14 @@ public class DefaultChartTheme implements ChartTheme
 						{
 							rangeAxisMaxRatio = 
 								JRPropertiesUtil.getInstance(chartContext.getJasperReportsContext()).getFloatProperty(
-									getChart(), "net.sf.jasperreports6.chart.bar.horizontal.range.max.value.ratio", 1.25f
+									getChart(), "net.sf.jasperreports.chart.bar.horizontal.range.max.value.ratio", 1.25f
 									);
 						}
 						else
 						{
 							rangeAxisMaxRatio = 
 								JRPropertiesUtil.getInstance(chartContext.getJasperReportsContext()).getFloatProperty(
-									getChart(), "net.sf.jasperreports6.chart.bar.vertical.range.max.value.ratio", 1.1f
+									getChart(), "net.sf.jasperreports.chart.bar.vertical.range.max.value.ratio", 1.1f
 									);
 						}
 						
@@ -1460,14 +1460,14 @@ public class DefaultChartTheme implements ChartTheme
 						{
 							rangeAxisMaxRatio = 
 								JRPropertiesUtil.getInstance(chartContext.getJasperReportsContext()).getFloatProperty(
-									getChart(), "net.sf.jasperreports6.chart.bar.horizontal.range.max.value.ratio", 1.25f
+									getChart(), "net.sf.jasperreports.chart.bar.horizontal.range.max.value.ratio", 1.25f
 									);
 						}
 						else
 						{
 							rangeAxisMaxRatio = 
 								JRPropertiesUtil.getInstance(chartContext.getJasperReportsContext()).getFloatProperty(
-									getChart(), "net.sf.jasperreports6.chart.bar.vertical.range.max.value.ratio", 1.1f
+									getChart(), "net.sf.jasperreports.chart.bar.vertical.range.max.value.ratio", 1.1f
 									);
 						}
 						

@@ -56,7 +56,7 @@ public abstract class AbstractVerifiableTableAction extends AbstractAction
 	
 	@Override
 	public String getMessagesBundle() {
-		return "net.sf.jasperreports6.components.headertoolbar.actions.messages";
+		return "net.sf.jasperreports.components.headertoolbar.actions.messages";
 	}
 
 	public StandardTable getTable(String uuid) 
@@ -74,10 +74,10 @@ public abstract class AbstractVerifiableTableAction extends AbstractAction
 	public void prepare() throws ActionException 
 	{
 		if (columnData == null) { 
-			errors.addAndThrow("net.sf.jasperreports6.components.headertoolbar.actions.validate.no.data");
+			errors.addAndThrow("net.sf.jasperreports.components.headertoolbar.actions.validate.no.data");
 		}
 		if(columnData.getTableUuid() == null || columnData.getTableUuid().trim().length() == 0) {
-			errors.addAndThrow("net.sf.jasperreports6.components.headertoolbar.actions.validate.no.table");
+			errors.addAndThrow("net.sf.jasperreports.components.headertoolbar.actions.validate.no.table");
 		}
 		CommandTarget target = getCommandTarget(UUID.fromString(columnData.getTableUuid()));
 		if (target != null)
@@ -86,7 +86,7 @@ public abstract class AbstractVerifiableTableAction extends AbstractAction
 			JRDesignComponentElement componentElement = identifiable instanceof JRDesignComponentElement ? (JRDesignComponentElement)identifiable : null;
 			
 			if (componentElement == null) {
-				errors.addAndThrow("net.sf.jasperreports6.components.headertoolbar.actions.validate.no.table.match", columnData.getTableUuid());
+				errors.addAndThrow("net.sf.jasperreports.components.headertoolbar.actions.validate.no.table.match", columnData.getTableUuid());
 			}
 			
 			table = (StandardTable)componentElement.getComponent();

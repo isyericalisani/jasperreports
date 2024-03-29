@@ -38,7 +38,7 @@ public interface QRCodeImageProducer
 {
 
 	@Property(
-			name = "net.sf.jasperreports6.components.barcode4j.qrcode.producer.{alias}",
+			name = "net.sf.jasperreports.components.barcode4j.qrcode.producer.{alias}",
 			category = PropertyConstants.CATEGORY_BARCODE,
 			valueType = Class.class,
 			scopes = {PropertyScope.CONTEXT, PropertyScope.REPORT, PropertyScope.COMPONENT},

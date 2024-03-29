@@ -73,7 +73,7 @@ public class MoveColumnAction extends AbstractVerifiableTableAction {
 	public void verify() throws ActionException {
 		MoveColumnData colData = getMoveColumnData();
 		if (colData.getColumnToMoveNewIndex() > TableUtil.getAllColumns(table).size() - 1) {
-			errors.addAndThrow("net.sf.jasperreports6.components.headertoolbar.actions.move.column.invalid.position", colData.getColumnToMoveNewIndex());
+			errors.addAndThrow("net.sf.jasperreports.components.headertoolbar.actions.move.column.invalid.position", colData.getColumnToMoveNewIndex());
 		}
 	}
 

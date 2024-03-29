@@ -38,7 +38,7 @@ public class JasperDesignReportResourceCache
 	/**
 	 * 
 	 */
-	private static final String PARAMETER_JASPER_DESIGN_REPORT_RESOURCE_CACHE = "net.sf.jasperreports6.parameter.jasperdesign.report.resource.cache";
+	private static final String PARAMETER_JASPER_DESIGN_REPORT_RESOURCE_CACHE = "net.sf.jasperreports.parameter.jasperdesign.report.resource.cache";
 
 	/**
 	 * 

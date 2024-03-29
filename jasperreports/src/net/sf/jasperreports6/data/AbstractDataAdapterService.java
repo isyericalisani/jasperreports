@@ -35,7 +35,7 @@ import net.sf.jasperreports6.engine.ParameterContributorContext;
  */
 public abstract class AbstractDataAdapterService implements DataAdapterService
 {
-	public static final String SECRETS_CATEGORY = "net.sf.jasperreports6.data.adapter";
+	public static final String SECRETS_CATEGORY = "net.sf.jasperreports.data.adapter";
 
 	private final ParameterContributorContext paramContribContext;
 	private String name;

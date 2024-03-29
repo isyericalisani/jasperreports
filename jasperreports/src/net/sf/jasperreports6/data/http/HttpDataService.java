@@ -76,7 +76,7 @@ public class HttpDataService implements DataFileService
 	
 	private static final Log log = LogFactory.getLog(HttpDataService.class);
 	
-	public static final String HTTP_DATA_SERVICE_NAME = "net.sf.jasperreports6.data.file.service:HTTP";
+	public static final String HTTP_DATA_SERVICE_NAME = "net.sf.jasperreports.data.file.service:HTTP";
 	
 	public static final String EXCEPTION_MESSAGE_KEY_NO_HTTP_URL_SET = "data.http.no.http.url.set";
 	public static final String EXCEPTION_MESSAGE_KEY_UNKNOWN_REQUEST_METHOD = "data.http.unknown.request.method";

@@ -41,7 +41,7 @@ import net.sf.jasperreports6.renderers.Renderable;
 public interface ChartRenderableFactory
 {
 	@Property(
-			name = "net.sf.jasperreports6.chart.renderer.factory.{render_type}",
+			name = "net.sf.jasperreports.chart.renderer.factory.{render_type}",
 			category = PropertyConstants.CATEGORY_FILL,
 			scopes = {PropertyScope.CONTEXT},
 			sinceVersion = PropertyConstants.VERSION_2_0_5

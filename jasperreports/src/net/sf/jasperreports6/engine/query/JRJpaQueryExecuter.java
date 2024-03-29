@@ -68,7 +68,7 @@ import net.sf.jasperreports6.engine.util.JRStringUtil;
  * Example:
  * <code>
  * <pre>
- * &lt;property name="net.sf.jasperreports6.ejbql.query.page.size" value="100"/&gt;
+ * &lt;property name="net.sf.jasperreports.ejbql.query.page.size" value="100"/&gt;
  * </pre>
  * </code>
  * <p/>
@@ -79,7 +79,7 @@ import net.sf.jasperreports6.engine.util.JRStringUtil;
  * Example using report property:
  * <code>
  * <pre>
- * &lt;property name="net.sf.jasperreports6.ejbql.query.hint.fetchSize" value="100"/&gt;
+ * &lt;property name="net.sf.jasperreports.ejbql.query.hint.fetchSize" value="100"/&gt;
  * </pre>
  * </code>
  * The name of the query hint need to be prefixed with {@link net.sf.jasperreports6.engine.query.JRJpaQueryExecuterFactory#PROPERTY_JPA_QUERY_HINT_PREFIX net.sf.jasperreports.ejbql.query.hint.}.

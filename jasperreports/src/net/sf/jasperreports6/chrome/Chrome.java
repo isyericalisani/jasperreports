@@ -78,7 +78,7 @@ public class Chrome
 	public static final String PROPERTY_HEADLESS = PROPERTY_PREFIX + "headless";
 		
 	@Property(
-			name = "net.sf.jasperreports6.chrome.argument.{name}",
+			name = "net.sf.jasperreports.chrome.argument.{name}",
 			category = PropertyConstants.CATEGORY_CHROME,
 			scopes = {PropertyScope.CONTEXT},
 			sinceVersion = PropertyConstants.VERSION_6_11_0
