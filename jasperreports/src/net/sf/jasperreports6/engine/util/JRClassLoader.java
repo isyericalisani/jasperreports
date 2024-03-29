@@ -138,6 +138,8 @@ public class JRClassLoader extends ClassLoader
 	 */
 	public static Class<?> loadClassForName(String className) throws ClassNotFoundException
 	{
+		System.out.println("-----className:"+className);
+		
 		Class<?> clazz = null;
 
 		String classRealName = className;
