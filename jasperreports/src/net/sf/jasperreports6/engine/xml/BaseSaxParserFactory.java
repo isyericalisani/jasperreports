@@ -256,6 +256,9 @@ public abstract class BaseSaxParserFactory implements JRSaxParserFactory
 	 */
 	public static JRSaxParserFactory getFactory(JasperReportsContext jasperReportsContext, String className)
 	{
+		System.out.println("BaseSaxParserFactory -- className:"+className);
+		System.out.println("BaseSaxParserFactory -- jasperReportsContext:"+jasperReportsContext);
+		
 		JRSaxParserFactory factory = null;
 		try
 		{

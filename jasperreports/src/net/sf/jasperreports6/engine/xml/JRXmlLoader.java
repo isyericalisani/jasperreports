@@ -232,7 +232,7 @@ public class JRXmlLoader
 	 */
 	public static JasperDesign load(InputStream is) throws JRException
 	{
-		System.out.println("--333-is:"+is);
+		System.out.println("--JRXmlLoader-is:"+is);
 		return load(DefaultJasperReportsContext.getInstance(), is);
 	}
 
@@ -248,6 +248,9 @@ public class JRXmlLoader
 
 		try 
 		{
+			System.out.println("JRXmlLoader----jasperReportsContext:"+jasperReportsContext);
+			System.out.println("JRXmlLoader----jasperReportsContext:"+jasperReportsContext.toString());
+			System.out.println("JRXmlLoader----is:"+is);
 			xmlLoader = new JRXmlLoader(jasperReportsContext, JRXmlDigesterFactory.createDigester(jasperReportsContext));
 		}
 		catch (ParserConfigurationException | SAXException e) 
