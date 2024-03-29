@@ -98,7 +98,7 @@ import net.sf.jasperreports6.properties.PropertyConstants;
  * <pre>
  * &lt;staticText&gt;
  *   &lt;reportElement ...&gt;
- *     &lt;property name="net.sf.jasperreports.text.measurer.factory" value="fast"/&gt;
+ *     &lt;property name="net.sf.jasperreports6.text.measurer.factory" value="fast"/&gt;
  *   &lt;/reportElement&gt;
  *   &lt;text&gt;...&lt;/text&gt;
  * &lt;/staticText&gt;
@@ -144,7 +144,7 @@ import net.sf.jasperreports6.properties.PropertyConstants;
  * </ul>
  * <pre>
  * &lt;jasperReport ...&gt;
- *   &lt;property name="net.sf.jasperreports.text.truncate.suffix" value="&amp;#x2026;"/&gt;
+ *   &lt;property name="net.sf.jasperreports6.text.truncate.suffix" value="&amp;#x2026;"/&gt;
  *   ...
  * &lt;/jasperReport&gt;
  * </pre>

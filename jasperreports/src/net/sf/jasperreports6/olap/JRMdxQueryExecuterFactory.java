@@ -46,7 +46,7 @@ import net.sf.jasperreports6.olap.xmla.JRXmlaQueryExecuterFactory;
 public class JRMdxQueryExecuterFactory extends AbstractQueryExecuterFactory implements Designated
 {
 	
-	public static final String QUERY_EXECUTER_NAME = "net.sf.jasperreports.query.executer:MDX";
+	public static final String QUERY_EXECUTER_NAME = "net.sf.jasperreports6.query.executer:MDX";
 	
 	private static final Log log = LogFactory.getLog(JRMdxQueryExecuterFactory.class);
 	

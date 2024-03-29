@@ -74,7 +74,7 @@ public class ExcelQueryExecuterFactory extends AbstractXlsQueryExecuterFactory
 			XLS_TIMEZONE, "java.util.TimeZone",
 			XLS_TIMEZONE_ID, "java.lang.String",
 			XLS_SHEET_SELECTION, "java.lang.String",
-			XLS_FORMAT, "net.sf.jasperreports.data.excel.ExcelFormatEnum"
+			XLS_FORMAT, "net.sf.jasperreports6.data.excel.ExcelFormatEnum"
 			};
 	
 	@Override

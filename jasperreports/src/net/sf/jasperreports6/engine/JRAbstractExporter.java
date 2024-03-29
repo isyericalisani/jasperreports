@@ -100,7 +100,7 @@ public abstract class JRAbstractExporter<RC extends ReportExportConfiguration, C
 	 * exporter factory given by {@link #PROPERTY_DEFAULT_FILTER_FACTORY} is used.
 	 */
 	@Property(
-			name = "net.sf.jasperreports.export.{arbitrary_name}.default.filter.factory",
+			name = "net.sf.jasperreports6.export.{arbitrary_name}.default.filter.factory",
 			valueType = Class.class,
 			category = PropertyConstants.CATEGORY_EXPORT,
 			defaultValue = "same default value as for net.sf.jasperreports.export.default.filter.factory",
@@ -117,7 +117,7 @@ public abstract class JRAbstractExporter<RC extends ReportExportConfiguration, C
 	@Property(
 			category = PropertyConstants.CATEGORY_EXPORT,
 			valueType = Class.class,
-			defaultValue = "net.sf.jasperreports.engine.export.DefaultExporterFilterFactory",
+			defaultValue = "net.sf.jasperreports6.engine.export.DefaultExporterFilterFactory",
 			scopes = {PropertyScope.CONTEXT, PropertyScope.REPORT},
 			sinceVersion = PropertyConstants.VERSION_3_0_1
 			)

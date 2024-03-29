@@ -117,7 +117,7 @@
  *   &lt;pdfEncoding&gt;Identity-H&lt;/pdfEncoding&gt;
  *   &lt;pdfEmbedded&gt;true&lt;/pdfEmbedded&gt;
  *   &lt;exportFonts&gt;
- *     &lt;export key="net.sf.jasperreports.html"&gt;'DejaVu Sans', Arial, Helvetica, sans-serif&lt;/export&gt;
+ *     &lt;export key="net.sf.jasperreports6.html"&gt;'DejaVu Sans', Arial, Helvetica, sans-serif&lt;/export&gt;
  *   &lt;/exportFonts&gt;
  * &lt;/fontFamily&gt;
  * 
@@ -129,7 +129,7 @@
  *   &lt;pdfEncoding&gt;Identity-H&lt;/pdfEncoding&gt;
  *   &lt;pdfEmbedded&gt;true&lt;/pdfEmbedded&gt;
  *   &lt;exportFonts&gt;
- *     &lt;export key="net.sf.jasperreports.html"&gt;'DejaVu Serif', 'Times New Roman', Times, serif&lt;/export&gt;
+ *     &lt;export key="net.sf.jasperreports6.html"&gt;'DejaVu Serif', 'Times New Roman', Times, serif&lt;/export&gt;
  *   &lt;/exportFonts&gt;
  * &lt;/fontFamily&gt;
  * </pre>
@@ -174,7 +174,7 @@
  *   &lt;pdfEncoding&gt;Identity-H&lt;/pdfEncoding&gt;
  *   &lt;pdfEmbedded&gt;true&lt;/pdfEmbedded&gt;
  *   &lt;exportFonts&gt;
- *     &lt;export key="net.sf.jasperreports.html"&gt;'DejaVu Sans', Arial, Helvetica, sans-serif&lt;/export&gt;
+ *     &lt;export key="net.sf.jasperreports6.html"&gt;'DejaVu Sans', Arial, Helvetica, sans-serif&lt;/export&gt;
  *   &lt;/exportFonts&gt;
  *   &lt;!--
  *   &lt;locales&gt;

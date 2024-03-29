@@ -145,12 +145,12 @@ public class ConditionalFormattingAction extends AbstractVerifiableTableAction {
 					
 						if (containsBetween) {
 							if (condition.getConditionStart() == null || condition.getConditionStart().length() == 0) {
-								errors.add("net.sf.jasperreports.components.headertoolbar.actions.conditionalformatting.empty.start.date", i+1);
+								errors.add("net.sf.jasperreports6.components.headertoolbar.actions.conditionalformatting.empty.start.date", i+1);
 							} else {
 								try {
 									df.parse(condition.getConditionStart());
 								} catch (ParseException e) {
-									errors.add("net.sf.jasperreports.components.headertoolbar.actions.conditionalformatting.invalid.start.date", i+1, condition.getConditionStart());
+									errors.add("net.sf.jasperreports6.components.headertoolbar.actions.conditionalformatting.invalid.start.date", i+1, condition.getConditionStart());
 								}
 							}
 
@@ -158,25 +158,25 @@ public class ConditionalFormattingAction extends AbstractVerifiableTableAction {
 								try {
 									df.parse(condition.getConditionEnd());
 								} catch (ParseException e) {
-									errors.add("net.sf.jasperreports.components.headertoolbar.actions.conditionalformatting.invalid.end.date", i+1, condition.getConditionEnd());
+									errors.add("net.sf.jasperreports6.components.headertoolbar.actions.conditionalformatting.invalid.end.date", i+1, condition.getConditionEnd());
 								}
 							} else {
-								errors.add("net.sf.jasperreports.components.headertoolbar.actions.conditionalformatting.empty.end.date", i+1);
+								errors.add("net.sf.jasperreports6.components.headertoolbar.actions.conditionalformatting.empty.end.date", i+1);
 							}
 							
 						} else if (!containsNull){
 							if (condition.getConditionStart() == null || condition.getConditionStart().length() == 0) {
-								errors.add("net.sf.jasperreports.components.headertoolbar.actions.conditionalformatting.empty.date", i+1);
+								errors.add("net.sf.jasperreports6.components.headertoolbar.actions.conditionalformatting.empty.date", i+1);
 							} else {
 								try {
 									df.parse(condition.getConditionStart());
 								} catch (ParseException e) {
-									errors.add("net.sf.jasperreports.components.headertoolbar.actions.conditionalformatting.invalid.date", i+1, condition.getConditionStart());
+									errors.add("net.sf.jasperreports6.components.headertoolbar.actions.conditionalformatting.invalid.date", i+1, condition.getConditionStart());
 								}
 							}
 						}
 					} catch (IllegalArgumentException e) {
-						errors.add("net.sf.jasperreports.components.headertoolbar.actions.conditionalformatting.invalid.pattern", i+1);
+						errors.add("net.sf.jasperreports6.components.headertoolbar.actions.conditionalformatting.invalid.pattern", i+1);
 					}
 					
 				} else if (conditionType == FilterTypesEnum.NUMERIC) {
@@ -185,7 +185,7 @@ public class ConditionalFormattingAction extends AbstractVerifiableTableAction {
 
 					if (!containsNull) {
 						if (condition.getConditionStart() == null || condition.getConditionStart().trim().length() == 0) {
-							errors.add("net.sf.jasperreports.components.headertoolbar.actions.conditionalformatting.empty.number", i + 1);
+							errors.add("net.sf.jasperreports6.components.headertoolbar.actions.conditionalformatting.empty.number", i + 1);
 							continue;
 						}
 						try {
@@ -195,13 +195,13 @@ public class ConditionalFormattingAction extends AbstractVerifiableTableAction {
 								try {
 									nf.parse(condition.getConditionEnd());
 								} catch (ParseException e) {
-									errors.add("net.sf.jasperreports.components.headertoolbar.actions.conditionalformatting.invalid.number", i + 1, condition.getConditionEnd());
+									errors.add("net.sf.jasperreports6.components.headertoolbar.actions.conditionalformatting.invalid.number", i + 1, condition.getConditionEnd());
 								}
 							}
 						} catch (ParseException e) {
-							errors.add("net.sf.jasperreports.components.headertoolbar.actions.conditionalformatting.invalid.number", i + 1, condition.getConditionStart());
+							errors.add("net.sf.jasperreports6.components.headertoolbar.actions.conditionalformatting.invalid.number", i + 1, condition.getConditionStart());
 						} catch (IllegalArgumentException e) {
-							errors.add("net.sf.jasperreports.components.headertoolbar.actions.conditionalformatting.invalid.pattern", i + 1);
+							errors.add("net.sf.jasperreports6.components.headertoolbar.actions.conditionalformatting.invalid.pattern", i + 1);
 						}
 					}
 				}

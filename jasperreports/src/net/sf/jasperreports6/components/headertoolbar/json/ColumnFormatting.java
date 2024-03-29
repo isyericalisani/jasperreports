@@ -41,7 +41,7 @@ public class ColumnFormatting implements Serializable
 {
 	private static final long serialVersionUID = JRConstants.SERIAL_VERSION_UID;
 	
-	public static final String CONTEXT_PARAMETER_COLUMN_FORMATTING = "net.sf.jasperreports.headertoolbar.column.formatting";
+	public static final String CONTEXT_PARAMETER_COLUMN_FORMATTING = "net.sf.jasperreports6.headertoolbar.column.formatting";
 
 	public static void store(ReportContext reportContext, String tableUUID, int columnIndex, 
 			Locale locale, TimeZone timeZone)

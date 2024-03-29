@@ -454,12 +454,12 @@ public class HtmlExporter extends AbstractHtmlExporter<HtmlReportConfiguration, 
 		if (hyperlinksData.size() > 0) 
 		{
 			//for sure reportContext is not null, because otherwise there would be no item in the hyperilnkData
-			reportContext.setParameterValue("net.sf.jasperreports.html.hyperlinks", hyperlinksData);
+			reportContext.setParameterValue("net.sf.jasperreports6.html.hyperlinks", hyperlinksData);
 		}
 
 		if (getCurrentItemConfiguration().isIncludeElementUUID())
 		{
-			reportContext.setParameterValue("net.sf.jasperreports.html.clickable.elements", Boolean.TRUE);
+			reportContext.setParameterValue("net.sf.jasperreports6.html.clickable.elements", Boolean.TRUE);
 		}
 		
 		if (htmlFooter == null)
@@ -2806,7 +2806,7 @@ public class HtmlExporter extends AbstractHtmlExporter<HtmlReportConfiguration, 
 	private void addSearchAttributes(JRStyledText styledText, JRPrintText textElement) {
 		ReportContext reportContext = getReportContext();
 		if (reportContext != null) {
-			SpansInfo spansInfo = (SpansInfo) reportContext.getParameterValue("net.sf.jasperreports.search.term.highlighter");
+			SpansInfo spansInfo = (SpansInfo) reportContext.getParameterValue("net.sf.jasperreports6.search.term.highlighter");
 			PrintElementId pei = PrintElementId.forElement(textElement);
 
 			if (spansInfo != null && spansInfo.hasHitTermsInfo(pei.toString())) {

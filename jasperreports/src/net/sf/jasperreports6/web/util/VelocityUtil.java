@@ -46,7 +46,7 @@ import org.apache.velocity.app.VelocityEngine;
 public class VelocityUtil
 {
 	@Property(
-			name = "net.sf.jasperreports.velocity.{arbitrary_suffix}",
+			name = "net.sf.jasperreports6.velocity.{arbitrary_suffix}",
 			category = PropertyConstants.CATEGORY_OTHER,
 			scopes = {PropertyScope.CONTEXT},
 			sinceVersion = PropertyConstants.VERSION_4_7_1

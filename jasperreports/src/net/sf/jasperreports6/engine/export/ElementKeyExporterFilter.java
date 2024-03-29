@@ -48,10 +48,10 @@ import net.sf.jasperreports6.engine.JRRuntimeException;
  * <pre>
  * &lt;jasperReport ...&gt;
  *   &lt;!-- exclude elements with keys Image1 and Text4 from HTML export --&gt;
- *   &lt;property name="net.sf.jasperreports.export.html.exclude.key.Image1"/&gt;
- *   &lt;property name="net.sf.jasperreports.export.html.exclude.key.Text4"/&gt;
+ *   &lt;property name="net.sf.jasperreports6.export.html.exclude.key.Image1"/&gt;
+ *   &lt;property name="net.sf.jasperreports6.export.html.exclude.key.Text4"/&gt;
  *   &lt;!-- exclude elements with keys Image5 from PDF export --&gt;
- *   &lt;property name="net.sf.jasperreports.export.pdf.exclude.key.the.image" value="Image5"/&gt;
+ *   &lt;property name="net.sf.jasperreports6.export.pdf.exclude.key.the.image" value="Image5"/&gt;
  *   ...
  * &lt;/jasperReport&gt;
  * </pre>

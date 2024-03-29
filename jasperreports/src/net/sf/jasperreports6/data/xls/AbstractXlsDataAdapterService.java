@@ -46,7 +46,7 @@ import net.sf.jasperreports6.engine.util.Designated;
 public abstract class AbstractXlsDataAdapterService extends AbstractDataAdapterService implements Designated 
 {
 	
-	public static final String SERVICE_DESIGNATION = "net.sf.jasperreports.data.adapter:XLS";
+	public static final String SERVICE_DESIGNATION = "net.sf.jasperreports6.data.adapter:XLS";
 	
 	protected DataFileStream dataStream;
 	

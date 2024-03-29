@@ -120,7 +120,7 @@ public class JsonMetadataExporter extends JRAbstractExporter<JsonMetadataReportC
 	public static final String JSON_EXPORTER_DATA_PROPERTY = JSON_EXPORTER_PROPERTIES_PREFIX + "data";
 
 	@Property(
-			name = "net.sf.jasperreports.export.json.repeat.{path}",
+			name = "net.sf.jasperreports6.export.json.repeat.{path}",
 			category = PropertyConstants.CATEGORY_EXPORT,
 			defaultValue = PropertyConstants.BOOLEAN_FALSE,
 			scopes = {PropertyScope.ELEMENT},
@@ -129,28 +129,28 @@ public class JsonMetadataExporter extends JRAbstractExporter<JsonMetadataReportC
 			)
 	public static final String JSON_EXPORTER_REPEAT_PROPERTIES_PREFIX = JSON_EXPORTER_PROPERTIES_PREFIX + "repeat.";
 	@Property(
-			name = "net.sf.jasperreports.export.json.number.{path}",
+			name = "net.sf.jasperreports6.export.json.number.{path}",
 			category = PropertyConstants.CATEGORY_EXPORT,
 			scopes = {PropertyScope.ELEMENT},
 			sinceVersion = PropertyConstants.VERSION_6_1_0
 			)
 	public static final String JSON_EXPORTER_NUMBER_PROPERTIES_PREFIX = JSON_EXPORTER_PROPERTIES_PREFIX + "number.";
 	@Property(
-			name = "net.sf.jasperreports.export.json.date.{path}",
+			name = "net.sf.jasperreports6.export.json.date.{path}",
 			category = PropertyConstants.CATEGORY_EXPORT,
 			scopes = {PropertyScope.ELEMENT},
 			sinceVersion = PropertyConstants.VERSION_6_1_0
 			)
 	public static final String JSON_EXPORTER_DATE_PROPERTIES_PREFIX = JSON_EXPORTER_PROPERTIES_PREFIX + "date.";
 	@Property(
-			name = "net.sf.jasperreports.export.json.boolean.{path}",
+			name = "net.sf.jasperreports6.export.json.boolean.{path}",
 			category = PropertyConstants.CATEGORY_EXPORT,
 			scopes = {PropertyScope.ELEMENT},
 			sinceVersion = PropertyConstants.VERSION_6_1_0
 			)
 	public static final String JSON_EXPORTER_BOOLEAN_PROPERTIES_PREFIX = JSON_EXPORTER_PROPERTIES_PREFIX + "boolean.";
 	@Property(
-			name = "net.sf.jasperreports.export.json.string.{path}",
+			name = "net.sf.jasperreports6.export.json.string.{path}",
 			category = PropertyConstants.CATEGORY_EXPORT,
 			scopes = {PropertyScope.ELEMENT},
 			sinceVersion = PropertyConstants.VERSION_6_1_0

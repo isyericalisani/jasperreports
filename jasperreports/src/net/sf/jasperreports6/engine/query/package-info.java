@@ -360,7 +360,7 @@
  * the property suffix as the hint name and the property value as the hint value. Thus, if the 
  * following property is present in the report: 
  * </p><p>
- * <code>&lt;property name="net.sf.jasperreports.ejbql.query.hint.cacheType" value="Shared"/&gt;</code> 
+ * <code>&lt;property name="net.sf.jasperreports6.ejbql.query.hint.cacheType" value="Shared"/&gt;</code> 
  * </p><p>
  * then the <code>cacheType</code> hint having <code>Shared</code> as value will be set when running the query. 
  * </p><p>
@@ -370,7 +370,7 @@
  * used for controlling the amount of Java heap space used by the query executer while 
  * filling the report. The property can be set in the following manner: 
  * </p><p>
- * <code>&lt;property name="net.sf.jasperreports.ejbql.query.page.size" value="500"/&gt;</code> 
+ * <code>&lt;property name="net.sf.jasperreports6.ejbql.query.page.size" value="500"/&gt;</code> 
  * </p><p>
  * The results of the query will be fetched in chunks containing 500 rows. 
  * </p><p>

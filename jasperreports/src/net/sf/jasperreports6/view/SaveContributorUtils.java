@@ -44,17 +44,17 @@ public class SaveContributorUtils
 	private static final Log log = LogFactory.getLog(SaveContributorUtils.class);
 	
 	private static final String[] DEFAULT_CONTRIBUTORS = {
-		"net.sf.jasperreports.view.save.JRPrintSaveContributor",
-		"net.sf.jasperreports.view.save.JRPdfSaveContributor",
-		"net.sf.jasperreports.view.save.JRRtfSaveContributor",
-		"net.sf.jasperreports.view.save.JROdtSaveContributor",
-		"net.sf.jasperreports.view.save.JRDocxSaveContributor",
-		"net.sf.jasperreports.view.save.JRHtmlSaveContributor",
-		"net.sf.jasperreports.view.save.JRSingleSheetXlsSaveContributor",
-		"net.sf.jasperreports.view.save.JRMultipleSheetsXlsSaveContributor",
-		"net.sf.jasperreports.view.save.JRCsvSaveContributor",
-		"net.sf.jasperreports.view.save.JRXmlSaveContributor",
-		"net.sf.jasperreports.view.save.JREmbeddedImagesXmlSaveContributor"
+		"net.sf.jasperreports6.view.save.JRPrintSaveContributor",
+		"net.sf.jasperreports6.view.save.JRPdfSaveContributor",
+		"net.sf.jasperreports6.view.save.JRRtfSaveContributor",
+		"net.sf.jasperreports6.view.save.JROdtSaveContributor",
+		"net.sf.jasperreports6.view.save.JRDocxSaveContributor",
+		"net.sf.jasperreports6.view.save.JRHtmlSaveContributor",
+		"net.sf.jasperreports6.view.save.JRSingleSheetXlsSaveContributor",
+		"net.sf.jasperreports6.view.save.JRMultipleSheetsXlsSaveContributor",
+		"net.sf.jasperreports6.view.save.JRCsvSaveContributor",
+		"net.sf.jasperreports6.view.save.JRXmlSaveContributor",
+		"net.sf.jasperreports6.view.save.JREmbeddedImagesXmlSaveContributor"
 	};
 	
 	private static final Class<?>[] CONSTRUCTOR_SIGNATURE = {

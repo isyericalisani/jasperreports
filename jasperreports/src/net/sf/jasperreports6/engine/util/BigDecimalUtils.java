@@ -52,7 +52,7 @@ public final class BigDecimalUtils
 		try
 		{
 			Class<?> handlerClass = Class.forName(
-					"net.sf.jasperreports.engine.util.Java15BigDecimalHandler");
+					"net.sf.jasperreports6.engine.util.Java15BigDecimalHandler");
 			handler = (BigDecimalHandler) handlerClass.getDeclaredConstructor().newInstance();
 		}
 		catch (ClassNotFoundException | NoSuchMethodException | InvocationTargetException 

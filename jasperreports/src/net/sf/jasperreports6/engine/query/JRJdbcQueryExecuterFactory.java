@@ -49,7 +49,7 @@ import net.sf.jasperreports6.properties.PropertyConstants;
 public class JRJdbcQueryExecuterFactory extends AbstractQueryExecuterFactory implements Designated
 {	
 	
-	public static final String QUERY_EXECUTER_NAME = "net.sf.jasperreports.query.executer:SQL";
+	public static final String QUERY_EXECUTER_NAME = "net.sf.jasperreports6.query.executer:SQL";
 	
 	/**
 	 * Property specifying the ResultSet fetch size.

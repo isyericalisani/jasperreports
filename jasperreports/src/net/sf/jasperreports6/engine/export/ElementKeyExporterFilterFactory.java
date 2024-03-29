@@ -55,7 +55,7 @@ public class ElementKeyExporterFilterFactory implements ExporterFilterFactory
 	 * <code>net.sf.jasperreports.export.xls.exclude.key.*</code>. 
 	 */
 	@Property(
-			name = "net.sf.jasperreports.export.{format}.exclude.key.{suffix}",
+			name = "net.sf.jasperreports6.export.{format}.exclude.key.{suffix}",
 			category = PropertyConstants.CATEGORY_EXPORT,
 			scopes = {PropertyScope.CONTEXT, PropertyScope.REPORT},
 			sinceVersion = PropertyConstants.VERSION_3_0_1

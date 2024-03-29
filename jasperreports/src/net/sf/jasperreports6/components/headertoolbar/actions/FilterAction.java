@@ -95,7 +95,7 @@ public class FilterAction extends AbstractVerifiableTableAction {
 		}
 		
 		if (fd.getFilterType() == null || fd.getFilterType().length() == 0) {
-			errors.addAndThrow("net.sf.jasperreports.components.headertoolbar.actions.filter.invalid.type");
+			errors.addAndThrow("net.sf.jasperreports6.components.headertoolbar.actions.filter.invalid.type");
 		}
 
 		//FIXME: add check for filterTypeOperator
@@ -118,12 +118,12 @@ public class FilterAction extends AbstractVerifiableTableAction {
 			
 				if (containsBetween) {
 					if (fd.getFieldValueStart() == null || fd.getFieldValueStart().length() == 0) {
-						errors.add("net.sf.jasperreports.components.headertoolbar.actions.filter.empty.start.date");
+						errors.add("net.sf.jasperreports6.components.headertoolbar.actions.filter.empty.start.date");
 					} else {
 						try {
 							df.parse(fd.getFieldValueStart());
 						} catch (ParseException e) {
-							errors.add("net.sf.jasperreports.components.headertoolbar.actions.filter.invalid.start.date", fd.getFieldValueStart());
+							errors.add("net.sf.jasperreports6.components.headertoolbar.actions.filter.invalid.start.date", fd.getFieldValueStart());
 						}
 					}
 
@@ -131,24 +131,24 @@ public class FilterAction extends AbstractVerifiableTableAction {
 						try {
 							df.parse(fd.getFieldValueEnd());
 						} catch (ParseException e) {
-							errors.add("net.sf.jasperreports.components.headertoolbar.actions.filter.invalid.end.date", fd.getFieldValueEnd());
+							errors.add("net.sf.jasperreports6.components.headertoolbar.actions.filter.invalid.end.date", fd.getFieldValueEnd());
 						}
 					} else {
-						errors.add("net.sf.jasperreports.components.headertoolbar.actions.filter.empty.end.date");
+						errors.add("net.sf.jasperreports6.components.headertoolbar.actions.filter.empty.end.date");
 					}
 					
 				} else if (!containsNull) {
 					if (fd.getFieldValueStart() == null || fd.getFieldValueStart().length() == 0) {
-						errors.addAndThrow("net.sf.jasperreports.components.headertoolbar.actions.filter.empty.date");
+						errors.addAndThrow("net.sf.jasperreports6.components.headertoolbar.actions.filter.empty.date");
 					}
 					try {
 						df.parse(fd.getFieldValueStart());
 					} catch (ParseException e) {
-						errors.add("net.sf.jasperreports.components.headertoolbar.actions.filter.invalid.date", fd.getFieldValueStart());
+						errors.add("net.sf.jasperreports6.components.headertoolbar.actions.filter.invalid.date", fd.getFieldValueStart());
 					}
 				}
 			} catch (IllegalArgumentException e) {
-				errors.addAndThrow("net.sf.jasperreports.components.headertoolbar.actions.filter.invalid.pattern");
+				errors.addAndThrow("net.sf.jasperreports6.components.headertoolbar.actions.filter.invalid.pattern");
 			}
 					
 		} else if (filterType == FilterTypesEnum.NUMERIC) {
@@ -157,7 +157,7 @@ public class FilterAction extends AbstractVerifiableTableAction {
 
 			if (!containsNull) {
 				if (fd.getFieldValueStart() == null || fd.getFieldValueStart().trim().length() == 0) {
-					errors.addAndThrow("net.sf.jasperreports.components.headertoolbar.actions.filter.empty.number");
+					errors.addAndThrow("net.sf.jasperreports6.components.headertoolbar.actions.filter.empty.number");
 				}
 				try {
 					NumberFormat nf = formatFactory.createNumberFormat(fd.getFilterPattern(), locale);
@@ -166,13 +166,13 @@ public class FilterAction extends AbstractVerifiableTableAction {
 						try {
 							nf.parse(fd.getFieldValueEnd());
 						} catch (ParseException e) {
-							errors.add("net.sf.jasperreports.components.headertoolbar.actions.filter.invalid.number", new Object[]{fd.getFieldValueEnd()});
+							errors.add("net.sf.jasperreports6.components.headertoolbar.actions.filter.invalid.number", new Object[]{fd.getFieldValueEnd()});
 						}
 					}
 				} catch (ParseException e) {
-					errors.add("net.sf.jasperreports.components.headertoolbar.actions.filter.invalid.number", new Object[]{fd.getFieldValueStart()});
+					errors.add("net.sf.jasperreports6.components.headertoolbar.actions.filter.invalid.number", new Object[]{fd.getFieldValueStart()});
 				} catch (IllegalArgumentException e) {
-					errors.addAndThrow("net.sf.jasperreports.components.headertoolbar.actions.filter.invalid.pattern");
+					errors.addAndThrow("net.sf.jasperreports6.components.headertoolbar.actions.filter.invalid.pattern");
 				}
 			}
 		}
