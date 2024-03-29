@@ -339,7 +339,7 @@ public final class JasperCompileManager
 	 */
 	public JasperReport compile(InputStream inputStream) throws JRException
 	{
-		System.out.println("--222-inputStream:"+inputStream);
+		System.out.println("-JasperCompileManager-222-inputStream:"+inputStream);
 		JasperDesign jasperDesign = JRXmlLoader.load(inputStream);
 
 		return compile(jasperDesign);

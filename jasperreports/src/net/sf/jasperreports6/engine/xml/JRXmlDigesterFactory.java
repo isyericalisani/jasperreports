@@ -1544,6 +1544,7 @@ public final class JRXmlDigesterFactory
 	 */
 	public static JRXmlDigester createDigester(JasperReportsContext jasperReportsContext) throws ParserConfigurationException, SAXException
 	{
+		System.out.println("JRXmlDigesterFactory---jasperReportsContext:"+jasperReportsContext);
 		SAXParser parser = createParser(jasperReportsContext);
 		JRXmlDigester digester = new JRXmlDigester(parser);
 		
@@ -1564,7 +1565,8 @@ public final class JRXmlDigesterFactory
 		{
 			log.debug("Using SAX parser factory class " + parserFactoryClass);
 		}
-		
+		System.out.println("JRXmlDigesterFactory -- parserFactoryClass:"+parserFactoryClass);
+		System.out.println("JRXmlDigesterFactory -- jasperReportsContext:"+jasperReportsContext);
 		JRSaxParserFactory factory = BaseSaxParserFactory.getFactory(jasperReportsContext, parserFactoryClass);
 		return factory.createParser();
 	}
